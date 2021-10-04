@@ -11,7 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gsap": "^3.8.0"
+    "autoprefixer": "^10.3.7",
+    "gsap": "^3.8.0",
+    "postcss-modules": "^4.2.2"
   },
   "devDependencies": {
     "@parcel/transformer-image": "^2.0.0-rc.0",
