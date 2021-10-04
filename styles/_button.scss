@@ -12,6 +12,7 @@
     transition: all .2s ease;
     cursor: pointer;
     outline: none;
+    -webkit-appearance: none;
     &-block {
         display: block;
     }
