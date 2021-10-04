@@ -1,0 +1,206 @@
+.header {
+    
+    
+    overflow: hidden;
+    background-color: var(--color-secondary);
+    position: relative;
+    padding: 2rem;
+    height: 100vh;
+    background-size: contain;
+    background-image: url("/img/header/shape.svg");
+    background-repeat: no-repeat;
+    background-position: top left;
+  
+
+
+    @media only screen and (min-width: $md) {
+        padding:5rem;
+    }
+    @media only screen and (min-width: $lg) {
+        padding:5rem;
+
+        background-image: url("/img/header/shape-lg.svg");
+
+    }
+
+
+
+    &__shape {
+        position: absolute;
+        height: 100%;
+        min-height: 600px;
+        width: 70vw;
+        top: 0;
+        left: 0;
+        fill:var(--color-secondary);
+
+
+    }
+
+
+    &__main-heading{
+        line-height: 1.0;
+        color:var(--color-white);
+        font-weight: bold;
+        font-size: 4rem;
+        
+        animation: moveInLeft .8s ease-in-out forwards;
+
+        &--bg {
+            display: none;
+            @media only screen and (min-width: $md) {
+                display: block;
+            }
+            
+        }
+
+        &--sm {
+
+            @media only screen and (min-width: $md) {
+                display: none;
+            }
+
+            & > span {
+                display: block;
+            }
+
+
+        }
+        
+        @media only screen and (min-width: $xsm) {
+            font-size: 5rem;
+        }
+        @media only screen and (min-width: $sm) {
+            font-size: 6rem;
+        }
+        @media only screen and (min-width: $md) {
+            font-size: 6.5rem;
+
+        }
+        @media only screen and (min-width: $lg) {
+            font-size: 10rem;
+
+        }
+
+        @media only screen and (min-width: $xlg) {
+            font-size: 14rem;
+
+        }
+        
+    }
+
+    &__sub-heading {
+        font-size: 1.5rem;
+        // letter-spacing: 1px;
+        opacity: .8;
+        font-weight: 400;
+        color:var(--color-white);
+        animation: moveInRight .8s .1s ease-in-out backwards;
+        @media only screen and (min-width: $xsm) {
+            font-size: 2.3rem;
+        }
+
+        @media only screen and (min-width: $md) {
+            font-size: 4rem;
+        }
+
+        @media only screen and (min-width: $lg) {
+            font-size: 5rem;
+        }
+    }
+
+
+
+    &__cta {
+        // z-index: 98;
+        display: flex;
+        cursor: pointer;
+        font-family: inherit;
+        color:var(--color-white);
+        font-size: 1.7rem;
+        font-weight: 200;
+        flex-direction: column;
+        align-items: center;
+        background-color: transparent;
+        border:none;
+        position: absolute;
+        bottom: 2.8rem;
+        left:50%;
+        transform: translateX(-50%);
+        outline: none;
+        &:focus,
+        &:hover {
+            svg {
+                animation: bounce .5s ease-in-out infinite alternate;
+                
+            }
+        }
+
+        svg {
+            width: 2em;
+            margin-top: 1em;
+            height: auto;
+            fill:var(--color-tertiary);
+            
+        }
+        
+        @media only screen and (min-width: $xsm) {
+            font-size: 2.5rem;
+            bottom: 8.2rem;
+        }
+        @media only screen and (min-width: $md) {
+            font-size: 3rem;
+
+            bottom: 9.5rem;
+            
+        }
+        @media only screen and (min-width: $xlg) {
+            font-size: 5rem;
+            
+        }
+
+        @media only screen and (max-height: 31.25em) {
+            bottom:2rem;
+            font-size: 4vh;
+        }
+    }
+
+    @keyframes bounce {
+        from {
+            transform: translate(0,0) ;
+        }
+
+        to {
+            transform: translate(0,-20px);
+        }
+    }
+
+    @keyframes moveInLeft {
+
+        from {
+            opacity: 0;
+            transform: translateX(-40px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    @keyframes moveInRight {
+
+        from {
+            opacity: 0;
+            transform: translateX(40px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+
+}
+

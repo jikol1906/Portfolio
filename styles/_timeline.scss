@@ -1,0 +1,135 @@
+.timeline {
+    @include top-and-bottom-border-radius;
+
+    padding: var(--section-top-and-bottom-padding);
+    position: relative;
+    overflow-x: hidden;
+    background-color: var(--color-secondary);
+
+
+    background-image: 
+        url("/img/timeline/shape-2.svg");
+    
+    background-repeat: no-repeat;
+     background-size: 63.8rem;
+     background-position: center center;
+    
+    
+    @media only screen and (min-width: $md) {
+        background-size: 126.0rem;
+    }
+    @media only screen and (min-width: $lg) {
+        background-size: 100%;
+    }
+
+    
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: repeat(9, 1fr);
+        
+    }
+
+
+
+    &__line {
+        width: 100%;
+        height: auto;
+        grid-column: 1/-1;
+        grid-row: 1/11;
+        stroke:var(--color-dark);
+        // opacity: .7;
+        fill:none;
+        
+        & circle {
+            fill:var(--color-dark);
+        }
+        &--bg {
+            display: none;
+
+            @media only screen and (min-width: $sm) {
+                display: block;
+            }
+        }
+
+        &--sm {
+            @media only screen and (min-width: $sm) {
+                display: none;
+            }
+        }
+    }
+
+    &__event {
+        grid-column: 1/-1;
+        grid-row: calc(var(--event-number) * 2) / calc(var(--event-number) * 2 + 2);
+        color: var(--color-white);
+        display: grid;
+        gap: 2rem;
+        justify-items: center;
+        align-content: center;
+        text-align: center;
+
+        @media only screen and (min-width: $md) {
+            gap: 3.6rem;
+        }
+
+
+  
+
+        &-header {
+            font-size:clamp(4.4rem,10vw,7rem);
+            min-height: 0vw;
+            // font-size:4.4rem;
+            line-height: 1;
+            
+            @media only screen and (min-width: $md) {
+                font-size:6rem;
+            }
+            @media only screen and (min-width: $lg) {
+                font-size:7.1rem;
+            }
+        }
+
+
+        &-sub-header {
+            font-weight: 300;
+            line-height: 1;
+            font-size: 2.7rem;
+            opacity: 0.8;
+
+            @media only screen and (min-width: $md) {
+                font-size:3rem;
+            }
+
+            @media only screen and (min-width: $lg) {
+                font-size:3.8rem;
+            }
+        }
+
+        &-text {
+            font-size: 1.2rem;
+            max-width: 20ch;
+            font-weight: normal;
+            text-align: center;
+            @media only screen and (min-width: $sm) {
+                font-size:1.5rem;
+            }
+            @media only screen and (min-width: $md) {
+                font-size:2rem;
+                max-width: none;   
+            }
+            @media only screen and (min-width: $lg) {
+                font-size:2rem;
+                max-width: none;   
+            }
+            
+        }
+
+        &-content {
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+

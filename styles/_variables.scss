@@ -1,0 +1,44 @@
+$xsm:25.875em;
+$sm:33em;
+$md:48em;
+$lg:80em;
+$xlg:123.75em;
+
+:root {
+    --color-main:#8049F5;
+    --color-secondary:#6E00FF;
+    --color-tertiary:#37DEAD;
+    --color-tertiary-dim:#38aa88;
+    --color-dark:#3C2273;
+    --color-white:#fff;
+    --color-black:#000;
+    
+    --scale:.5;
+    --space-smallest:calc(1rem * var(--scale));
+    --space-smaller:calc(2rem * var(--scale));
+    --space-small:calc(3rem * var(--scale));
+    --space-medium:calc(5rem * var(--scale));
+    --space-big:calc(6rem * var(--scale));
+    --space-bigger:calc(8rem * var(--scale));
+    --space-biggest:calc(10rem * var(--scale));
+
+    --space-smallest-em:1em;
+    --space-smaller-em:2em;
+    --space-small-em:3em;
+    --space-medium-em:5em;
+    --space-big-em:6em;
+    --space-bigger-em:8em;
+    --space-biggest-em:10em;
+
+    --section-border-radius: 100px;
+
+    --section-top-and-bottom-padding:15rem 0;
+
+
+
+    @media only screen and (min-width: $md) {
+        --scale:1;
+        --section-top-and-bottom-padding:30rem 0;
+        --section-border-radius: 200px;
+    }
+}

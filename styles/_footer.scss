@@ -1,0 +1,35 @@
+.contact {
+    padding: var(--section-top-and-bottom-padding);
+    display: grid;
+    gap:6.5rem;
+    
+    @include bp-med {
+        gap:10rem;
+    }
+    &__form {
+
+        display: grid;
+        gap:2.5rem;
+
+        @include bp-med {
+            gap:3.5rem;
+        }
+        &-input {
+            display: block;
+            padding:2rem;
+            outline:none;
+            border: none;
+            border-radius:10px;
+            font-family: inherit;
+            font-size: 2.1rem;
+
+            @include focus-style;
+        }
+    }
+
+    &__submit {
+        justify-self: center;
+    }
+
+
+}

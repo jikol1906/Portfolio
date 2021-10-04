@@ -1,0 +1,82 @@
+.introduction {
+    padding: var(--section-top-and-bottom-padding);
+
+    position: relative;
+    overflow-x: hidden;
+
+    &__content {
+        display: grid;
+        justify-items: center;
+        grid-gap:7.5rem;
+        gap:7.5rem;
+        &::after {
+            content: "";
+            grid-row:4/5;
+            display: block;
+            height: 3px;
+            width: 100%;
+            background-color: var(--color-white);
+            opacity: 0.3;
+            border-radius: 5px;
+
+        }
+
+        @media only screen and (min-width: $md) {
+            grid-gap:8rem;
+            gap:8rem;
+            
+        }
+        @media only screen and (min-width: $lg) {
+            grid-gap:10rem;
+            gap:10rem;
+            
+        }
+    }
+
+    &__paragraph {
+        text-align: center;
+        font-size: 1.4rem;
+        &-container {
+            display: grid;
+            grid-gap:1.9rem;
+            gap:1.9rem;
+
+
+            @media only screen and (min-width: $xsm) {
+                grid-gap:2.5rem;
+                gap:2.5rem;
+            }
+            @media only screen and (min-width: $md) {
+                grid-gap:4.5rem;
+                gap:4.5rem;
+            }
+            @media only screen and (min-width: $lg) {
+                grid-gap:5rem;
+                gap:5rem;
+            }
+        }
+        
+        color: var(--color-white);
+
+        @media only screen and (min-width: $md) {
+            font-size: 2.1rem;
+        }
+
+    }
+
+    &__img {
+        width: 25rem;
+        height: 25rem;
+        object-fit: cover;
+        border-radius: 1000px;
+        border: 10px solid rgba(255,255,255,.4);
+        @media only screen and (min-width: $md) {
+            width: 40rem;
+            height: 40rem;
+        }
+    }
+
+    &__download-resume {
+        text-align: center;
+    }
+}

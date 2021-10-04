@@ -1,0 +1,101 @@
+.competences {
+    padding: var(--section-top-and-bottom-padding);
+    
+    
+
+    &__card-grid {
+        display: grid;
+        gap:1rem;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 1fr;
+
+        @media only screen and (min-width: $md) {
+            grid-template-columns: 1fr 1fr 1fr;
+    
+        }
+
+        @media only screen and (min-width: $lg) {
+            gap:2rem;   
+        }
+
+    }
+
+    
+
+    &__card {
+        @include sharp-shadow;
+        @include border-radius;
+
+        color:var(--color-white);
+        grid-row: span 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        background-color: var(--color-dark);   
+        
+
+        @media only screen and (min-width: $lg) {
+            
+            padding: 4rem;
+
+        }
+
+        &-header {
+            font-size: 1.3rem;
+            font-weight: 400;
+            white-space: nowrap;
+            @media only screen and (min-width: $xsm) {
+                font-size: 2rem;
+                font-size: 1.7rem;
+            }
+            @media only screen and (min-width: $sm) {
+                font-size: 2rem;
+            }
+            @media only screen and (min-width: $lg) {
+                font-size: 2.5rem;
+            }
+        }
+        
+        @media only screen and (min-width: $md) {
+            grid-row: span 4;
+        }
+
+        
+        &-spacer--2 {
+            display: none;
+
+            @media only screen and (min-width: $md) {
+                display: block;
+            }
+        }
+    }
+
+    &__svg-container {
+        align-self: stretch;
+        flex:1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2.5rem;
+    }
+
+    &__svg {
+        width: auto;
+        height: 40px;
+        @media only screen and (min-width: $xsm) {
+            height: 70px;
+            
+        }
+        @media only screen and (min-width: $sm) {
+            height: 90px;
+            
+        }
+        @media only screen and (min-width: $lg) {
+            height: 100px;
+        }
+    }
+
+
+}
