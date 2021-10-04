@@ -140,7 +140,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"3zY5f":[function(require,module,exports) {
+})({"47uAx":[function(require,module,exports) {
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
@@ -597,7 +597,7 @@ var _csspluginJs = require("./CSSPlugin.js");
 var gsapWithCSS = _gsapCoreJs.gsap.registerPlugin(_csspluginJs.CSSPlugin) || _gsapCoreJs.gsap, // to protect from tree shaking
 TweenMaxWithCSS = gsapWithCSS.core.Tween;
 
-},{"./gsap-core.js":"3CNdC","./CSSPlugin.js":"jjtfE","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"3CNdC":[function(require,module,exports) {
+},{"./gsap-core.js":"3CNdC","./CSSPlugin.js":"jjtfE","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"3CNdC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "GSCache", ()=>GSCache
@@ -3333,7 +3333,7 @@ _coreReady = 1;
 _windowExists() && _wake();
 var Power0 = _easeMap.Power0, Power1 = _easeMap.Power1, Power2 = _easeMap.Power2, Power3 = _easeMap.Power3, Power4 = _easeMap.Power4, Linear = _easeMap.Linear, Quad = _easeMap.Quad, Cubic = _easeMap.Cubic, Quart = _easeMap.Quart, Quint = _easeMap.Quint, Strong = _easeMap.Strong, Elastic = _easeMap.Elastic, Back = _easeMap.Back, SteppedEase = _easeMap.SteppedEase, Bounce = _easeMap.Bounce, Sine = _easeMap.Sine, Expo = _easeMap.Expo, Circ = _easeMap.Circ;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"5lGN4":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"JacNc":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -4237,7 +4237,7 @@ _gsapCoreJs._forEachName("x,y,z,top,right,bottom,left,width,height,fontSize,padd
 });
 _gsapCoreJs.gsap.registerPlugin(CSSPlugin);
 
-},{"./gsap-core.js":"3CNdC","@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"kBfnF":[function(require,module,exports) {
+},{"./gsap-core.js":"3CNdC","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"kBfnF":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "ScrollToPlugin", ()=>ScrollToPlugin
@@ -4413,7 +4413,7 @@ ScrollToPlugin.getOffset = _getOffset;
 ScrollToPlugin.buildGetter = _buildGetter;
 _getGSAP() && gsap.registerPlugin(ScrollToPlugin);
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"6ZEM9":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"6ZEM9":[function(require,module,exports) {
 var _gsap = require("gsap");
 var _scrollTrigger = require("gsap/ScrollTrigger");
 _gsap.gsap.registerPlugin(_scrollTrigger.ScrollTrigger);
@@ -5720,7 +5720,7 @@ ScrollTrigger.sort = function(func) {
 };
 _getGSAP() && gsap.registerPlugin(ScrollTrigger);
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"5lGN4"}],"bh3p4":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"bh3p4":[function(require,module,exports) {
 var _gsap = require("gsap");
 var _scrollTrigger = require("gsap/ScrollTrigger");
 _gsap.gsap.registerPlugin(_scrollTrigger.ScrollTrigger);
@@ -5819,6 +5819,6 @@ projectCards.forEach((card, i)=>{
     });
 });
 
-},{"gsap":"iCVLt","gsap/ScrollTrigger":"fkz0j"}]},["3zY5f","dLfVs"], "dLfVs", "parcelRequire72bc")
+},{"gsap":"iCVLt","gsap/ScrollTrigger":"fkz0j"}]},["47uAx","dLfVs"], "dLfVs", "parcelRequire72bc")
 
 //# sourceMappingURL=index.005b2a0e.js.map
