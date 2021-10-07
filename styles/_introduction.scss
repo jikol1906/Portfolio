@@ -1,6 +1,11 @@
 .introduction {
     padding: var(--section-top-and-bottom-padding);
+    background-image: url("../img/introduction/bg.svg");
+    background-size: 100%;
 
+    background-repeat: no-repeat;
+    background-position: center center;
+    
     position: relative;
     overflow-x: hidden;
 
