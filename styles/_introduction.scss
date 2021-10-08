@@ -1,13 +1,17 @@
 .introduction {
     padding: var(--section-top-and-bottom-padding);
-    background-image: url("../img/introduction/bg.svg");
+    background-image: url("../img/introduction/bg-small.svg");
     background-size: 100%;
 
     background-repeat: no-repeat;
     background-position: center center;
-    
+
     position: relative;
     overflow-x: hidden;
+
+    @media only screen and (min-width: $lg) {
+        background-image: url("../img/introduction/bg.svg");
+    }
 
     &__content {
         display: grid;
