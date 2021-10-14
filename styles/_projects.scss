@@ -21,7 +21,7 @@
         @include sharp-shadow;
         @include border-radius;
         background-color: var(--color-dark);
-        padding: 4rem;
+        padding: 3rem;
         
         text-align: center;
         color: var(--color-white);
@@ -30,6 +30,10 @@
         justify-items: center;
         grid-gap: 3.4rem;
         gap: 3.4rem;
+
+        @media only screen and (min-width: $md) { 
+            padding: 4rem;
+        }
 
         &-content {
             flex: 1;
