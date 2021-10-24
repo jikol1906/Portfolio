@@ -76,10 +76,11 @@
     &__img {
         width: 25rem;
         height: 25rem;
+        border-radius: 40px;
         object-fit: cover;
-        border-radius: 80px;
         border: 10px solid rgba(255,255,255,.4);
         @media only screen and (min-width: $md) {
+            border-radius: 80px;
             width: 40rem;
             height: 40rem;
         }
