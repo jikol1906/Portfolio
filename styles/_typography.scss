@@ -5,6 +5,34 @@ a {
     color: currentColor;
 }
 
+.header-container {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap:0.9rem;
+
+    svg {
+        width: 2.5rem;
+        height:auto;
+        @media only screen and (min-width: $xsm) {
+            width: 3rem;
+        }
+        @media only screen and (min-width: $md) {
+            width: 5rem;
+        }
+
+    }
+
+    @media only screen and (min-width: $xsm) {
+        gap:1.4rem;
+    }
+    @media only screen and (min-width: $md) {
+        gap:3rem;
+        
+    }
+}
+
 .section-header {
     color:var(--color-white);
     font-weight: 200;
