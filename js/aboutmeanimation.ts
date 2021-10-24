@@ -13,7 +13,7 @@ const introductionTimeline = gsap.timeline({
     }
 })
 introductionTimeline
-    .from('.introduction__header', {
+    .from('.introduction .header-container', {
         opacity: 0,
         y: "200%"
     })
