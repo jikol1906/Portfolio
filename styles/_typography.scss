@@ -15,11 +15,24 @@ a {
     svg {
         width: 2.5rem;
         height:auto;
+
+        &.lg {
+            width: 3;
+        }
+
         @media only screen and (min-width: $xsm) {
             width: 3rem;
+
+            &.lg {
+                width: 4rem;
+            }
         }
         @media only screen and (min-width: $md) {
             width: 5rem;
+
+            &.lg {
+                width: 6rem;
+            }
         }
 
     }
