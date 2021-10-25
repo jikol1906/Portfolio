@@ -17,7 +17,7 @@
         display: grid;
         justify-items: center;
         grid-gap:7.5rem;
-        gap:7.5rem;
+        gap:5rem;
         &::after {
             content: "";
             grid-row:4/5;
