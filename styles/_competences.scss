@@ -1,7 +1,12 @@
 .competences {
     padding: var(--section-top-and-bottom-padding);
-    
-    
+
+    @media only screen and (min-width: $md) {
+        background-image: url("/img/skills/bg.svg");
+        background-size: 200%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 
     &__card-grid {
         display: grid;
