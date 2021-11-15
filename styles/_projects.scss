@@ -21,6 +21,9 @@
         @include sharp-shadow;
         @include border-radius;
         background-color: var(--color-dark);
+        background-image: url("../img/projects/card-bg.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
         padding: 3rem;
         
         text-align: center;
