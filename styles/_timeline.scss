@@ -44,19 +44,7 @@
         & circle {
             fill:var(--color-dark);
         }
-        &--bg {
-            display: none;
 
-            @media only screen and (min-width: $sm) {
-                display: block;
-            }
-        }
-
-        &--sm {
-            @media only screen and (min-width: $sm) {
-                display: none;
-            }
-        }
     }
 
     &__event {

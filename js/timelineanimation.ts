@@ -7,20 +7,12 @@ let circles;
 
 const events = document.querySelectorAll('.timeline__event') as NodeListOf<HTMLDivElement>;
 
-const lineSm = document.querySelector('.timeline__line--sm') as HTMLDivElement;
-const lineBg = document.querySelector('.timeline__line--bg') as HTMLDivElement;
+const line = document.querySelector('.timeline__line') as HTMLDivElement;
 
 
-//get the svgelements of the current displayed timeline
-if (getComputedStyle(lineSm).display === 'block') {
-    lines = lineSm.querySelectorAll('[id^=tline]') as NodeListOf<SVGGeometryElement>
-    circles = lineSm.querySelectorAll('[id^=tcirc]') as NodeListOf<SVGGeometryElement>
+    lines = line.querySelectorAll('[id^=tline]') as NodeListOf<SVGGeometryElement>
+    circles = line.querySelectorAll('[id^=tcirc]') as NodeListOf<SVGGeometryElement>
     
-} else {
-    lines = lineBg.querySelectorAll('[id^=tline]') as NodeListOf<SVGGeometryElement>
-    circles = lineBg.querySelectorAll('[id^=tcirc]') as NodeListOf<SVGGeometryElement>
-    
-}
 
 
 lines.forEach((line, i) => {
