@@ -41,13 +41,11 @@
         align-items: center;
         justify-content: center;
         padding: 2rem;
-        background-color: var(--color-dark);   
-        
+        background-color: var(--color-dark);
 
-        @media only screen and (min-width: $lg) {
-            
-            padding: 4rem;
 
+        @media only screen and (min-width: $md) {
+            padding: 4.5rem;
         }
 
         &-header {
