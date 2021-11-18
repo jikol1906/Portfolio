@@ -92,16 +92,10 @@
         height: 40px;
         @media only screen and (min-width: $xsm) {
             height: 70px;
-            
         }
         @media only screen and (min-width: $sm) {
             height: 90px;
-            
         }
-        @media only screen and (min-width: $lg) {
-            height: 100px;
-        }
+
     }
-
-
 }
