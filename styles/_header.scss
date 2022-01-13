@@ -123,10 +123,39 @@
         align-items: center;
         background-color: transparent;
         border:none;
-        position: absolute;
-        bottom: 6rem;
-        left:50%;
-        transform: translateX(-50%);
+        
+        &_container { 
+            display: grid;
+            justify-content: center;
+            justify-items: center;
+            gap:7rem;
+            grid-template-columns: auto; 
+            align-items: center; 
+            position: absolute;
+            bottom:10rem;
+            left:0;
+            width: 100%;
+            
+            @media only screen and (min-width: $md){
+                grid-template-columns: auto auto; 
+                gap:20rem;
+            }
+            
+            @media only screen and (min-width: $sm)  and (max-height:41.06em) {
+                grid-template-columns: auto auto; 
+            }
+
+            @media only screen and (min-width: $xsm)  and (max-height:36.06em) {
+                grid-template-columns: auto auto; 
+            }
+
+            @media only screen and (max-height: 500px) {
+                bottom:5rem;
+            }
+
+        }
+        
+        
         outline: none;
         &:focus,
         &:hover {
@@ -144,14 +173,13 @@
             
         }
         
-        @media only screen and (min-width: $xsm) {
+        @media only screen and (min-width: $sm) {
             font-size: 2.5rem;
-            bottom: 8.2rem;
+            
         }
         @media only screen and (min-width: $md) {
-            font-size: 3rem;
-
-            bottom: 9.5rem;
+            font-size: 2.8rem;
+            
             
         }
         @media only screen and (min-width: $xlg) {
@@ -160,7 +188,6 @@
         }
 
         @media only screen and (max-height: 31.25em) {
-            bottom:2rem;
             font-size: 4vh;
         }
     }

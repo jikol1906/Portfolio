@@ -9,10 +9,17 @@ import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 
 gsap.registerPlugin(ScrollToPlugin);
 
-const ctaButton = document.querySelector('.header__cta') as HTMLButtonElement;
+const [getToKnowMe,goToProjects] = document.querySelectorAll('.header__cta') as NodeListOf<HTMLButtonElement>;
 
-ctaButton.addEventListener('click',() => {
-    gsap.to(window, {duration: .5, scrollTo:".introduction__content", ease:"ease-in-out"});
+getToKnowMe.addEventListener('click',() => {
+    gsap.to(window, {duration: .5, scrollTo:"#introduction", ease:"ease-in-out"});
+    
+})
+
+goToProjects.addEventListener('click',() => {
+    console.log('here');
+    
+    gsap.to(window, {duration: .5, scrollTo:"#projects", ease:"ease-in-out"});
     
 })
 
