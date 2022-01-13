@@ -22,5 +22,10 @@ introductionTimeline
         x: "100%",
         stagger: .1,
     }, "<25%")
+    .from('.introduction__img', {
+        opacity: 0,
+        y: "100%",
+        stagger: .1,
+    }, "<25%")
 
 
