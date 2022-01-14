@@ -61,6 +61,7 @@ navBarTimeline
 
 
 navbarButton.addEventListener('click',() => {
+    navbarButton.blur()
     toggleNav()
 })
 navbarContainer.addEventListener('click',() => {
