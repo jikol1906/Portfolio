@@ -136,21 +136,29 @@
             left:0;
             width: 100%;
             
-            @media only screen and (min-width: $md){
+
+            @media only screen and (min-width: $xsm) and (max-width: $sm) and (max-height:36.06em) {
                 grid-template-columns: auto auto; 
-                gap:20rem;
             }
             
-            @media only screen and (min-width: $sm)  and (max-height:41.06em) {
+            @media only screen and (min-width: $sm) and (max-width: $md)  and (max-height:34.25em) {
                 grid-template-columns: auto auto; 
             }
 
-            @media only screen and (min-width: $xsm)  and (max-height:36.06em) {
-                grid-template-columns: auto auto; 
-            }
 
             @media only screen and (max-height: 500px) {
                 bottom:5rem;
+            }
+
+            @media only screen and (min-width: $md){
+                grid-template-columns: auto auto; 
+                gap:10rem;
+                justify-content: center;
+            }
+            
+            @media only screen and (min-width: $lg){
+                justify-content: right;
+                padding-right:10rem;
             }
 
         }
@@ -169,7 +177,7 @@
             width: 2em;
             margin-top: 1em;
             height: auto;
-            fill:var(--color-tertiary);
+
             
         }
         
