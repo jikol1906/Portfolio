@@ -123,6 +123,16 @@
         align-items: center;
         background-color: transparent;
         border:none;
+
+        span {
+            transition: all .2s ease;
+        }
+
+        &:nth-child(1) svg {
+            
+                animation-delay: 500ms;
+            
+        }
         
         &_container { 
             display: grid;
@@ -167,9 +177,8 @@
         outline: none;
         &:focus,
         &:hover {
-            svg {
-                animation: bounce .5s ease-in-out infinite alternate;
-                
+            span {
+                transform: translateY(-20px) scale(1.04);
             }
         }
 
@@ -177,9 +186,9 @@
             width: 2em;
             margin-top: 1em;
             height: auto;
-
-            
+            animation: bounce 1.5s ease-in-out infinite alternate;            
         }
+
         
         @media only screen and (min-width: $sm) {
             font-size: 2.5rem;
@@ -206,7 +215,7 @@
         }
 
         to {
-            transform: translate(0,-20px);
+            transform: translate(0,-15px);
         }
     }
 
