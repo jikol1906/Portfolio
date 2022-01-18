@@ -116,6 +116,7 @@ img {
         @include sharp-shadow;
         transform:scale(1.01);
         filter:brightness(1.2);
+        @content
     }
 
     &:active {
