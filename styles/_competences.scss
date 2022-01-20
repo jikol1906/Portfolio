@@ -31,7 +31,7 @@
     
 
     &__card {
-        @include sharp-shadow;
+        @include shadow;
         @include border-radius;
 
         color:var(--color-white);
