@@ -81,9 +81,9 @@
         object-fit: cover;
         border: 15px solid rgba(255,255,255,.4);
         @media only screen and (min-width: $md) {
-            border: 30px solid rgba(255,255,255,.4);
             width: 40rem;
             height: 40rem;
+            border: 37px solid rgba(255,255,255,.4);
         }
     }
 
