@@ -116,12 +116,12 @@ img {
 @mixin sharp-shadow {
     box-shadow: 4px 7px 0 rgba(0,0,0,.11);   
 }
-@mixin border-radius {
-    border-top-right-radius: 25px;
-    border-bottom-left-radius:25px;
+@mixin border-radius($s:25px,$m:40px) {
+    border-top-right-radius: $s;
+    border-bottom-left-radius:$s;
     @include bp-med {
-        border-top-right-radius: 40px;
-        border-bottom-left-radius:40px;
+        border-top-right-radius: $m;
+        border-bottom-left-radius:$m;
     }
     
 }
