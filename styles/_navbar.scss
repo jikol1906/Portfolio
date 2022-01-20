@@ -124,7 +124,7 @@
         letter-spacing: 1.5px;
         color: var(--color-white);
         background-color: var(--color-secondary);
-        border-radius: 100px;
+        @include border-radius(10px,20px);
         cursor: pointer;
         &-img {
             display: block;
