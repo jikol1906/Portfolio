@@ -77,11 +77,16 @@ a {
     border-bottom:2px solid rgba(255,255,255,.5);
     text-align: center;
     padding-bottom:3rem;
-    font-size: 3rem;
+    font-size: 2rem;
     opacity: .9;
     letter-spacing: 11px;
     text-transform: uppercase;
     line-height: 1;
     white-space: nowrap;
+
+    @include bp-med {
+        text-align: left;
+        font-size: 4rem;
+    }
 }
 
