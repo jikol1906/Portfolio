@@ -74,7 +74,9 @@ a {
 .section-subheader {
     color:var(--color-white);
     font-weight: 200;
+    border-bottom:2px solid rgba(255,255,255,.5);
     text-align: center;
+    padding-bottom:3rem;
     font-size: 3rem;
     opacity: .9;
     letter-spacing: 11px;
