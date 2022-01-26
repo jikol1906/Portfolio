@@ -1,5 +1,5 @@
 .timeline {
-    @include top-and-bottom-border-radius;
+    @include border-radius(100px,200px);
 
     padding: var(--section-top-and-bottom-padding);
     position: relative;

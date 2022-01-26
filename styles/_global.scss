@@ -116,19 +116,21 @@ img {
 @mixin shadow {
     box-shadow: 4px 7px 10px rgba(0,0,0,.11);   
 }
-@mixin border-radius($s:25px,$m:40px) {
-    border-top-right-radius: $s;
-    border-bottom-left-radius:$s;
-    @include bp-med {
-        border-top-right-radius: $m;
-        border-bottom-left-radius:$m;
-    }
-    
-}
+@mixin border-radius($s:25px,$m:40px, $bottom-right-only: false) {
 
-@mixin top-and-bottom-border-radius {
-    border-top-right-radius: var(--section-border-radius);
-    border-bottom-left-radius: var(--section-border-radius);
+    @if $bottom-right-only {
+        border-bottom-right-radius:$s;
+        @include bp-med {
+            border-bottom-right-radius:$m;
+        }
+    } @else {
+        border-top-right-radius: $s;
+        border-bottom-left-radius:$s;
+        @include bp-med {
+            border-top-right-radius: $m;
+            border-bottom-left-radius:$m;
+        }
+    }
 }
 
 @mixin focus-style {
