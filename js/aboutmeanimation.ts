@@ -4,7 +4,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const introductionTimeline = gsap.timeline({
     scrollTrigger: {
-        trigger: '.introduction__header',
+        trigger: '#introduction',
         start: "top 70%"
     },
     defaults: {
@@ -13,7 +13,7 @@ const introductionTimeline = gsap.timeline({
     }
 })
 introductionTimeline
-    .from('.introduction .header-container', {
+    .from('.introduction__header', {
         opacity: 0,
         y: "200%"
     })
