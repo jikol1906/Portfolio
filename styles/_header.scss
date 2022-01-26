@@ -1,6 +1,6 @@
 .header {
     
-    
+    @include border-radius(100px,200px,true);
     overflow: hidden;
     display: grid;
     grid-template-rows: 40% auto;
