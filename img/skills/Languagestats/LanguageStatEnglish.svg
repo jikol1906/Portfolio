@@ -1,0 +1,30 @@
+<svg width="899" height="100" viewBox="0 0 899 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2285_1426)">
+<rect width="100" height="100" rx="50" fill="#5C35B0"/>
+<g clip-path="url(#clip1_2285_1426)">
+<path d="M-25 0V100H125V0H-25Z" fill="#012169"/>
+<path d="M-25 0L125 100L-25 0ZM125 0L-25 100Z" fill="black"/>
+<path d="M125 0L-25 100M-25 0L125 100L-25 0Z" stroke="white" stroke-width="10"/>
+<path d="M-25 0L125 100L-25 0ZM125 0L-25 100Z" fill="black"/>
+<path d="M125 0L-25 100M-25 0L125 100L-25 0Z" stroke="#C8102E" stroke-width="6.66667"/>
+<path d="M50 0V100V0ZM-25 50H125Z" fill="black"/>
+<path d="M-25 50H125M50 0V100V0Z" stroke="white" stroke-width="16.6667"/>
+<path d="M50 0V100V0ZM-25 50H125Z" fill="black"/>
+<path d="M-25 50H125M50 0V100V0Z" stroke="#C8102E" stroke-width="10"/>
+</g>
+</g>
+<rect x="141" y="41.5" width="758" height="17" rx="8.5" fill="#3B2273" fill-opacity="0.13"/>
+<rect x="141" y="42" width="758" height="17" rx="8.5" fill="url(#paint0_linear_2285_1426)"/>
+<defs>
+<linearGradient id="paint0_linear_2285_1426" x1="185.002" y1="51" x2="881.986" y2="51" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1AD69E"/>
+<stop offset="1" stop-color="#6AF8CE"/>
+</linearGradient>
+<clipPath id="clip0_2285_1426">
+<rect width="100" height="100" rx="50" fill="white"/>
+</clipPath>
+<clipPath id="clip1_2285_1426">
+<rect width="150" height="100" fill="white" transform="translate(-25)"/>
+</clipPath>
+</defs>
+</svg>
