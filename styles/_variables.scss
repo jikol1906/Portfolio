@@ -33,13 +33,13 @@ $xlg:123.75em;
 
     --section-border-radius: 100px;
 
-    --section-top-and-bottom-padding:15rem 0;
+    --section-top-and-bottom-padding:15rem;
 
 
 
     @media only screen and (min-width: $md) {
         --scale:1;
-        --section-top-and-bottom-padding:30rem 0;
+        --section-top-and-bottom-padding:30rem;
         --section-border-radius: 200px;
     }
 }
