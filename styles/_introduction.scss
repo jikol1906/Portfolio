@@ -1,6 +1,11 @@
 .introduction {
-    padding-bottom:var(--section-top-and-bottom-padding);;
-    padding-top:var(--section-top-and-bottom-padding);
+    --margin-offset:10rem;
+    position: relative;
+    z-index: -1;
+    padding-bottom:calc(var(--section-top-and-bottom-padding) + var(--margin-offset));
+    padding-top:calc(var(--section-top-and-bottom-padding) + var(--margin-offset));
+    margin-top:calc(var(--margin-offset) * -1);
+    margin-bottom:calc(var(--margin-offset) * -1);
     background-image: url("../img/introduction/bg-small.svg");
     background-size: 100%;
 
