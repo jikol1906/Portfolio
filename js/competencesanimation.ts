@@ -5,7 +5,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 //Competence section elements
 const competenceCards = document.querySelectorAll('.competences__card') as NodeListOf<HTMLDivElement>
-
+const languageStats = document.querySelectorAll('.competences__language-stat') as NodeListOf<HTMLDivElement>
 
 
 competenceCards.forEach((card,i) => {
@@ -29,4 +29,16 @@ competenceCards.forEach((card,i) => {
         })
     
         
+})
+
+languageStats.forEach(l => {
+    gsap.from(l,{
+        scrollTrigger: {
+            trigger:l,
+            start:"top 90%",
+        },
+        y:"90%",
+        opacity: 0
+    })
+
 })
