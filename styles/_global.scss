@@ -23,6 +23,11 @@ body {
     
 }
 
+main {
+    position: relative;
+    z-index: -2;
+}
+
 img {
     width: 100%;
     height: auto;
