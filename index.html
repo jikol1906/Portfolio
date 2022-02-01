@@ -124,7 +124,7 @@
 
 
             <div id="timeline" class="container">
-                <h2 class="timeline__header section-header mb7">Timeline</h2>
+                <h2 data-fade-in-bottom class="timeline__header section-header mb7">Timeline</h2>
                 <div class="timeline__grid">
                     <div class="timeline__event" style="--event-number:1;">
 
@@ -204,8 +204,8 @@
 
         <section class="competences">
             <div class="container">
-                <h2 class="section-header mb7">Skills</h2>
-                <h3 class="section-subheader mt7 mb4">Technologies</h3>
+                <h2 data-fade-in-bottom class="section-header mb7">Skills</h2>
+                <h3 data-fade-in-bottom class="section-subheader mt7 mb4">Technologies</h3>
                 <div id="competences" class="competences__card-grid">
                     <div class="competences__card-spacer--1" style="grid-column: 2/3;grid-row: 1/2;"></div>
                     <div class="competences__card-spacer--2" style="grid-column: 3/4;grid-row: 1/3;"></div>
@@ -497,7 +497,7 @@
                         <h3 class="competences__card-header">C#</h3>
                     </div>
                 </div>
-                <h3 class="section-subheader mt7 mb4">Languages</h3>
+                <h3 data-fade-in-bottom class="section-subheader mt7 mb4">Languages</h3>
                 <img class="competences__language-stat mb3" src="img/skills/Languagestats/LanguageStatDanish.svg"  alt="Fluent in danish">
                 <img class="competences__language-stat mb3" src="img/skills/Languagestats/LanguageStatEnglish.svg"  alt="Fluent in english">
                 <img class="competences__language-stat mb3" src="img/skills/Languagestats/LanguageStatGerman.svg"  alt="Conversational in german">
@@ -505,7 +505,7 @@
         </section>
 
         <section class="projects">
-            <h2 id="projects" class="section-header mb7">Projects</h2>
+            <h2 data-fade-in-bottom id="projects" class="section-header mb7">Projects</h2>
             <div class="container">
                 <div class="projects__grid">
                     <div class="projects__card">
@@ -1007,15 +1007,14 @@
     <div class="container">
 
         <footer id="contact" class="contact">
-            <h2 class="section-header">Contact</h2>
+            <h2 data-fade-in-bottom class="section-header">Contact</h2>
             <form id="contactform" name="contact" class="contact__form" netlify>
-                <input class="contact__form-input" required type="text" name="name" id="name" placeholder="name">
-                <input class="contact__form-input" required type="email" name="email" id="email" placeholder="email">
-                <textarea class="contact__form-input" name="message" placeholder="message" id="message" cols="30"
-                    rows="10"></textarea>
+                <div data-fade-in-bottom><input class="contact__form-input" required type="text" name="name" id="name" placeholder="name"></div>
+                <div data-fade-in-bottom><input class="contact__form-input" required type="email" name="email" id="email" placeholder="email"></div>
+                <div data-fade-in-bottom><textarea class="contact__form-input" name="message" placeholder="message" id="message" cols="30"rows="10"></textarea></div>
             </form>
 
-            <input form="contactform" class="btn contact__submit" type="submit" value="send message">
+            <div data-fade-in-bottom style="text-align: center;"><input form="contactform" class="btn contact__submit" type="submit" value="send message"></div>
         </footer>
     </div>
 </body>

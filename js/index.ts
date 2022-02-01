@@ -17,6 +17,19 @@ getToKnowMe.addEventListener('click',() => {
     
 })
 
+document.querySelectorAll("*[data-fade-in-bottom]").forEach(h => {    
+    gsap.from(h, {
+        scrollTrigger:{
+            trigger:h
+        },
+        ease: "elastic.out(1, 1)",
+        duration:2.5,
+        opacity: 0,
+        y:"100px"
+    })
+})
+
+
 goToProjects.addEventListener('click',() => {
     goToProjects.blur()
     gsap.to(window, {duration: .5, scrollTo:"#projects", ease:"ease-in-out"});
