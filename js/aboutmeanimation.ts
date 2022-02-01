@@ -19,7 +19,7 @@ introductionTimeline
     })
     .from('.introduction__paragraph', {
         opacity: 0,
-        x: "100%",
+        y: "100%",
         stagger: .1,
     }, "<25%")
     .from('.introduction__img', {
