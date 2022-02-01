@@ -1,7 +1,6 @@
 import './navbaranimation';
 import './aboutmeanimation';
 import './timelineanimation';
-import './competencesanimation';
 import './projectsanimation';
 
 import { gsap } from "gsap";
@@ -23,9 +22,9 @@ document.querySelectorAll("*[data-fade-in-bottom]").forEach(h => {
             trigger:h
         },
         ease: "elastic.out(1, 1)",
-        duration:2.5,
+        duration:2,
         opacity: 0,
-        y:"100px"
+        y:"100px",
     })
 })
 
