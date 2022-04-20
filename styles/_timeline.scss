@@ -7,19 +7,25 @@
     overflow-x: hidden;
     background-color: var(--color-secondary);
 
-
+    background-size: 100% 900px;
 
     
     background-repeat: no-repeat;
-     background-size: 63.8rem;
-     background-position: center center;
+    background-position: top right, bottom left;
+     
     
-    
+    background-image: 
+    url("../img/timeline/top-md.svg"),
+    url("../img/timeline/bottom-md.svg");
     @media only screen and (min-width: $md) {
-        background-size: 126.0rem;
+        background-size: 100% 1767px;
     }
     @media only screen and (min-width: $lg) {
-        background-size: 100%;
+        background-size: 100% 1767px;
+        background-image: 
+        url("../img/timeline/top-lg.svg"),
+        url("../img/timeline/bottom-lg.svg");
+        
     }
 
     
