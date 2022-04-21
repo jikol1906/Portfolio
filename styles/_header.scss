@@ -1,6 +1,5 @@
 .header {
     
-    @include border-radius(100px,200px,true);
     overflow: hidden;
     display: grid;
     grid-template-rows: 40% auto;
@@ -22,13 +21,9 @@
 
     }
 
-    &__shape {
-        position: absolute;
-        height: 100%;
-        min-height: 600px;
-        width: 70vw;
-        top: 0;
-        left: 0;
+    &__wave {
+        display: block;
+        width: 100%;
         fill:var(--color-secondary);
 
 
