@@ -17,8 +17,9 @@
     background-image: 
     url("../img/timeline/top-md.svg"),
     url("../img/timeline/bottom-md.svg");
+
     @media only screen and (min-width: $md) {
-        background-size: 100% 1767px;
+        background-size: 100% 1400px;
     }
     @media only screen and (min-width: $lg) {
         background-size: 100% 1767px;
