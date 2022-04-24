@@ -112,14 +112,18 @@
         align-items: center;
         background-color: transparent;
         border:none;
+        animation: moveInTop .8s 400ms ease-in-out backwards;
 
         span {
             transition: all .2s ease;
         }
 
-        &:nth-child(1) svg {
+        &:nth-child(1) { 
+            animation-delay: 600ms;
+            svg {
             
                 animation-delay: 500ms;
+            }
             
         }
         
@@ -233,6 +237,21 @@
             transform: translateX(0);
         }
     }
+
+    @keyframes moveInTop {
+
+        from {
+            opacity: 0;
+            transform: translateY(-40px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+
 
 
 }
