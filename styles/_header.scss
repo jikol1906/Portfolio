@@ -52,7 +52,7 @@
         white-space: nowrap;
         font-weight: bold;
         font-size: 3.5rem;
-        animation: moveInLeft .8s ease-in-out forwards;
+        animation: moveInLeft .8s ease-in-out backwards;
 
         
         @media only screen and (min-width: $xsm) {
