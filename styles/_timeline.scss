@@ -7,7 +7,7 @@
     overflow-x: hidden;
     background-color: var(--color-secondary);
 
-    background-size: 125% 600px;
+    background-size: 125% 400px;
 
     
     background-repeat: no-repeat;
@@ -22,7 +22,7 @@
         background-size: 100% 1400px;
     }
     @media only screen and (min-width: $lg) {
-        background-size: 100% 1767px;
+        background-size: 100% 1300px;
         background-image: 
         url("../img/timeline/top-lg.svg"),
         url("../img/timeline/bottom-lg.svg");
@@ -35,9 +35,6 @@
         grid-template-columns: repeat(12,1fr);
         grid-template-rows: repeat(11, 1fr);
         margin-bottom: -15rem;
-        @media only screen and (min-width: $md) {
-            margin-bottom: -30rem;
-        }
     }
 
 
