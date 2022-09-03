@@ -33,7 +33,7 @@
     &__grid {
         display: grid;
         grid-template-columns: repeat(12,1fr);
-        grid-template-rows: repeat(9, 1fr);
+        grid-template-rows: repeat(11, 1fr);
         margin-bottom: -15rem;
         @media only screen and (min-width: $md) {
             margin-bottom: -30rem;
@@ -46,7 +46,7 @@
         width: 100%;
         height: auto;
         grid-column: 1/-1;
-        grid-row: 1/11;
+        grid-row: 1/-1;
         stroke:var(--color-dark);
         // opacity: .7;
         fill:none;
