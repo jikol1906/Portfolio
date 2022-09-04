@@ -58,7 +58,7 @@ events.forEach((e,i) => {
     gsap.from(e,{
         scrollTrigger: {
             trigger: e,
-            start: "20% center",
+            start: "20% 60%",
             toggleActions: "play none none reverse",
             // markers:true
             
