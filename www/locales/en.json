@@ -11,11 +11,27 @@
         "de":"de/index.html",
         "en":"index.html"
     },
+    "nav": {
+        "about":"About",
+        "timeline":"Timeline",
+        "skills":"Skills",
+        "projects":"Projects",
+        "contact":"Contact"
+    },
     "paragraphs": {
         "header":"About Me",
         "first":"Software developer specializing in front-end web development. My main competences are HTML, CSS, Javascript as well as technologies like React and Angular.",
         "second":"I have a good knowledge of more low-level javascript concepts like the prototype, closures, the event loop and the DOM. This is because I believe that it is also important to know what is going on \"under the hood\" of all the modern javascript frameworks",
         "third":"I also am competent in css and know more advanced concepts like the box model, selector specificity as well as how to build modern layouts using grid and flexbox.",
         "download":"Download Resume"
+    },
+    "timelinesection":{
+        "header":"Timeline",
+        "eventLinkOne":"Gymnasium",
+        "eventLinkTwo":"Informationstechnologie",
+        "eventLinkThree":"Qualifications",
+        "eventLinkFour":"Software Technology - B.Eng",
+        "eventLinkFive":"Informatik - M.Sc"
+        
     }
 }

@@ -35,11 +35,11 @@
                 <li class="navbar__list-item-small"><a href="../index.html">
                         <img class="navbar__link-img" src="../img/english.svg" alt="English">
                     </a></li>
-                <li class="navbar__list-item"><a tabindex="0" class="navbar__link" href="#introduction">About</a></li>
-                <li class="navbar__list-item"><a tabindex="0" class="navbar__link" href="#timeline">Timeline</a></li>
-                <li class="navbar__list-item"><a tabindex="0" class="navbar__link" href="#competences">Skills</a></li>
-                <li class="navbar__list-item"><a tabindex="0" class="navbar__link" href="#projects">Projects</a></li>
-                <li class="navbar__list-item"><a tabindex="0" class="navbar__link" href="#contact">Contact</a></li>
+                <li class="navbar__list-item"><a tabindex="0" class="navbar__link" href="#introduction">Über Mich</a></li>
+                <li class="navbar__list-item"><a tabindex="0" class="navbar__link" href="#timeline">Zeitstrahl</a></li>
+                <li class="navbar__list-item"><a tabindex="0" class="navbar__link" href="#competences">Fähigkeiten</a></li>
+                <li class="navbar__list-item"><a tabindex="0" class="navbar__link" href="#projects">Projekten</a></li>
+                <li class="navbar__list-item"><a tabindex="0" class="navbar__link" href="#contact">Kontakt</a></li>
             </ul>
         </div>
     </nav>
@@ -57,7 +57,7 @@
         </div>
         <div class="header__cta_container">        
             <button class="header__cta">
-                <span>Lernen Sie mich kennen</span>
+                <span>Über Mich</span>
                 
                 <svg viewbox="0 0 60 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M7.75586 8.45001L29.999 29.2697L52.2422 8.45001" stroke="#37DEAD" stroke-width="15.1881" stroke-linecap="round" stroke-linejoin="round"/>
@@ -65,7 +65,7 @@
                     
             </button>
             <button class="header__cta">
-                <span>Siehe meine Projekte</span>
+                <span>Meine Projekte</span>
                 
                 <svg viewbox="0 0 60 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M7.75586 8.45001L29.999 29.2697L52.2422 8.45001" stroke="#37DEAD" stroke-width="15.1881" stroke-linecap="round" stroke-linejoin="round"/>
@@ -95,8 +95,8 @@
                     <h2 class="introduction__header section-header">Über Mich</h2>
                     <div class="introduction__paragraph-container">
                         <p class="introduction__paragraph">Softwareentwickler mit Spezialisierung auf Front-End-Webentwicklung. Meine Hauptkompetenzen sind HTML, CSS, Javascript sowie Technologien wie React und Angular.</p>
-                        <p class="introduction__paragraph">Ich verfüge über gute Kenntnisse von Low-Level-Javascript-Konzepten wie dem Prototyp, Closures, der Ereignisschleife und dem DOM. Das liegt daran, dass ich glaube, dass es auch wichtig ist, zu wissen, was "unter der Haube" all der modernen Javascript-Frameworks vor sich geht</p>
-                        <p class="introduction__paragraph">Ich verfüge über gute Kenntnisse von Low-Level-Javascript-Konzepten wie dem Prototyp, Closures, der Ereignisschleife und dem DOM. Das liegt daran, dass ich glaube, dass es auch wichtig ist, zu wissen, was "unter der Haube" all der modernen Javascript-Frameworks vor sich geht</p>
+                        <p class="introduction__paragraph">Ich verfüge über gute Kenntnisse von Low-Level-Javascript-Konzepten wie dem Prototype, Closures, der event loop und dem DOM. Das liegt daran, dass ich glaube, dass es auch wichtig ist, zu wissen, was in den Tiefen all der modernen Javascript-Frameworks vor sich geht</p>
+                        <p class="introduction__paragraph">Ich bin auch kompetent in CSS und kenne fortgeschrittene Konzepte wie das Box-Modell, die Spezifität von Selektoren und wie man moderne Layouts mit Grid und Flexbox erstellt.</p>
                     </div>
                     <img class="introduction__img" src="../img/me.jpg" loading="lazy" alt="Boris Grunwald">
                     <div class="introduction__download-resume">
@@ -114,51 +114,51 @@
 
 
             <div id="timeline" class="container">
-                <h2 data-fade-in-bottom class="timeline__header section-header mb7">Timeline</h2>
+                <h2 data-fade-in-bottom class="timeline__header section-header mb7">Zeitstrahl</h2>
                 <div class="timeline__grid">
-                    <div class="timeline__event" style="grid-column:2/6; grid-row: 1/3;">
+                    <div class="timeline__event" style="--event-number:1;">
 
                         <div class>
                             <h3 class="timeline__event-header">GSK</h3>
                             <h4 class="timeline__event-sub-header">2015</h4>
                         </div>
-                        <a href="https://gengym.dk/" target="_blank" class="timeline__event-text">Highschool</a>
+                        <a href="https://gengym.dk/" target="_blank" class="timeline__event-text">Gymnasium</a>
 
                     </div>
-                    <div class="timeline__event" style="grid-column:6/10; grid-row: 3/5;">
+                    <div class="timeline__event" style="--event-number:2;">
 
 
                         <div class>
                             <h3 class="timeline__event-header">KEA</h3>
                             <h4 class="timeline__event-sub-header">2016</h4>
                         </div>
-                        <a href="https://kompetence.kea.dk/uddannelser/it/au-i-informationsteknologi" target="_blank" class="timeline__event-text">Information Technology</a>
+                        <a href="https://kompetence.kea.dk/uddannelser/it/au-i-informationsteknologi" target="_blank" class="timeline__event-text">Informationstechnologie</a>
 
 
                     </div>
-                    <div class="timeline__event" style="grid-column:1/5; grid-row: 5/7;">
+                    <div class="timeline__event" style="--event-number:3;">
 
 
                         <div class>
                             <h3 class="timeline__event-header">KVUC</h3>
                             <h4 class="timeline__event-sub-header">2018</h4>
                         </div>
-                        <a href="https://kvuc.dk/english/" target="_blank" class="timeline__event-text">Qualifications</a>
+                        <a href="https://kvuc.dk/english/" target="_blank" class="timeline__event-text">Qualifikationen</a>
 
 
                     </div>
-                    <div class="timeline__event" style="grid-column:-1/-5; grid-row: -4/-6;">
+                    <div class="timeline__event" style="--event-number:4;">
 
 
                         <div class>
                             <h3 class="timeline__event-header">DTU</h3>
                             <h4 class="timeline__event-sub-header">2020</h4>
                         </div>
-                        <a href="https://www.dtu.dk/english/education/bachelor-beng-and-bsc-/beng/software-technology" target="_blank" class="timeline__event-text">Software Technology - B.Eng</a>
+                        <a href="https://www.dtu.dk/english/education/bachelor-beng-and-bsc-/beng/software-technology" target="_blank" class="timeline__event-text">Software-Technologie</a>
 
 
                     </div>
-                    <div class="timeline__event" style="grid-column:1/5; grid-row: -2/-4;">
+                    <div class="timeline__event" style="--event-number:5;">
 
 
                         <div class>
@@ -171,25 +171,9 @@
                     </div>
 
 
-                    <svg class="timeline__line" viewbox="0 0 768 2200" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="lineFrame">
-                        <g id="paths">
-                        <path id="tline1" d="M704 17C798 319 517.5 510 192 400" stroke="#3B2273" stroke-width="16" stroke-linecap="round"/>
-                        <path id="tline2" d="M191.848 400C48.7623 528.5 65.2722 724.5 448 800" stroke="#3B2273" stroke-width="16" stroke-linecap="round"/>
-                        <path id="tline3" d="M448 800C591 928.5 510.5 1124.5 128 1200" stroke="#3B2273" stroke-width="16" stroke-linecap="round"/>
-                        <path id="tline4" d="M125.242 1200C-3.2023 1444.65 359.5 1578 640 1600" stroke="#3B2273" stroke-width="16" stroke-linecap="round"/>
-                        <path id="tline5" d="M640 1600C640 1600 560 1976.5 128 2000" stroke="#3B2273" stroke-width="16" stroke-linecap="round"/>
-                        </g>
-                        <circle id="tcirc1" cx="191.5" cy="399.5" r="27.5" fill="#3B2273"/>
-                        <circle id="tcirc2" cx="447.5" cy="799.5" r="27.5" fill="#3B2273"/>
-                        <circle id="tcirc3" cx="127.5" cy="1199.5" r="27.5" fill="#3B2273"/>
-                        <g id="Frame 120">
-                        <circle id="tcirc4" cx="640" cy="1600" r="27.5" fill="#3B2273"/>
-                        </g>
-                        <g id="Frame 121">
-                        <circle id="tcirc5" cx="128" cy="2000" r="27.5" fill="#3B2273"/>
-                        </g>
-                        </g></svg>
-                        <!-- <svg class="timeline__line" viewBox="0 0 768 2200" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+
+                        <svg class="timeline__line" viewbox="0 0 768 2200" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="lineFrame">
                             <g id="paths">
                             <path id="tline1" d="M704 7V17.9092C704 117.32 623.411 197.909 524 197.909H244C144.589 197.909 64 278.498 64 377.909V400" stroke="#3B2273" stroke-width="14" stroke-linecap="round"/>
@@ -216,7 +200,7 @@
                             </g>
                             </g>
                             </g>
-                            </svg> -->
+                            </svg>
                 
 
 
