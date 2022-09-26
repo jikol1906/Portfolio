@@ -38,6 +38,18 @@
         "header":"Fähigkeiten",
         "subheaderOne":"Technologien",
         "subheaderTwo":"Sprache"
+    },
+    "projectssection":{
+        "header":"Projekten",
+        "visitwebsite":"Website Besuchen",
+        "visitgithub":"Github Besuchen",
+        "technologiesused":"Verwendete Technologien",
+        "sortingvis":"Program dass ich Teil einer Schulaufgabe gemacht habe um verschiedene Sortieralgorithmen zu visualisieren",
+        "fretworkout":"Program dass ich gemacht habe, um die Noten des Griffbretts einer Gitarre zu lernen",
+        "aleye":"Webseite dass ich für das Startup-Unternehmen Al-eye gemacht habe. Das Unternehmen entwickelt visuelle Hilfsmittel mithilfe von augmented reality technologie",
+        "rockpaper":"Spiel das ich gemacht habe als Teil einer Herausfordering von Frontendmentors.io",
+        "quiz":"Quiz das ich für die Universität Erfurt gemacht habe als Teil einer Kampagne Tag der SES",
+        "portolio":"Die Website, auf der Sie sich gerade befinden. In Figma entworfen und von Grund auf mit GSAP für die Animationen gemacht"
     }
 
 
