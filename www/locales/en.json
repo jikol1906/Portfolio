@@ -27,11 +27,11 @@
     },
     "timelinesection":{
         "header":"Timeline",
-        "eventLinkOne":"Gymnasium",
-        "eventLinkTwo":"Informationstechnologie",
+        "eventLinkOne":"Highschool",
+        "eventLinkTwo":"Information Technology",
         "eventLinkThree":"Qualifications",
         "eventLinkFour":"Software Technology - B.Eng",
-        "eventLinkFive":"Informatik - M.Sc"
+        "eventLinkFive":"Computer science and engineering - M.Sc"
         
     }
 }

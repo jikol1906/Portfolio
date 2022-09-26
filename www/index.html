@@ -35,11 +35,11 @@
                 <li class="navbar__list-item-small"><a data-attr-t href-t="links.en" href="#">
                         <img class="navbar__link-img" src="img/english.svg" alt="English">
                     </a></li>
-                <li class="navbar__list-item"><a tabindex="0" class="navbar__link" data-t href="#introduction">nav.about</a></li>
-                <li class="navbar__list-item"><a tabindex="0" class="navbar__link" data-t href="#timeline">nav.timeline</a></li>
-                <li class="navbar__list-item"><a tabindex="0" class="navbar__link" data-t href="#competences">nav.skills</a></li>
-                <li class="navbar__list-item"><a tabindex="0" class="navbar__link" data-t href="#projects">nav.projects</a></li>
-                <li class="navbar__list-item"><a tabindex="0" class="navbar__link" data-t href="#contact">nav.contact</a></li>
+                <li class="navbar__list-item"><a tabindex="0" class="navbar__link" data-t="nav.about" href="#introduction">About</a></li>
+                <li class="navbar__list-item"><a tabindex="0" class="navbar__link" data-t="nav.timeline" href="#timeline">Timeline</a></li>
+                <li class="navbar__list-item"><a tabindex="0" class="navbar__link" data-t="nav.skills" href="#competences">Skills</a></li>
+                <li class="navbar__list-item"><a tabindex="0" class="navbar__link" data-t="nav.projects" href="#projects">Projects</a></li>
+                <li class="navbar__list-item"><a tabindex="0" class="navbar__link" data-t="nav.contact" href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -92,11 +92,11 @@
 
             <div class="container">
                 <div id="introduction" class="introduction__content">
-                    <h2 data-t class="introduction__header section-header">paragraphs.header</h2>
+                    <h2 data-t="paragraphs.header" class="introduction__header section-header">About Me</h2>
                     <div class="introduction__paragraph-container">
-                        <p data-t class="introduction__paragraph">paragraphs.first</p>
-                        <p data-t class="introduction__paragraph">paragraphs.second</p>
-                        <p data-t class="introduction__paragraph">paragraphs.third</p>
+                        <p data-t="paragraphs.first" class="introduction__paragraph">Software developer specializing in front-end web development. My main competences are HTML, CSS, Javascript as well as technologies like React and Angular.</p>
+                        <p data-t="paragraphs.second" class="introduction__paragraph">I have a good knowledge of more low-level javascript concepts like the prototype, closures, the event loop and the DOM. This is because I believe that it is also important to know what is going on "under the hood" of all the modern javascript frameworks</p>
+                        <p data-t="paragraphs.third" class="introduction__paragraph">I also am competent in css and know more advanced concepts like the box model, selector specificity as well as how to build modern layouts using grid and flexbox.</p>
                     </div>
                     <img class="introduction__img" src="img/me.jpg" loading="lazy" alt="Boris Grunwald">
                     <div class="introduction__download-resume">
@@ -114,7 +114,7 @@
 
 
             <div id="timeline" class="container">
-                <h2 data-t data-fade-in-bottom class="timeline__header section-header mb7">timelinesection.header</h2>
+                <h2 data-t="timelinesection.header" data-fade-in-bottom class="timeline__header section-header mb7">Timeline</h2>
                 <div class="timeline__grid">
                     <div class="timeline__event" style="--event-number:1;">
 
@@ -122,7 +122,7 @@
                             <h3 class="timeline__event-header">GSK</h3>
                             <h4 class="timeline__event-sub-header">2015</h4>
                         </div>
-                        <a data-t href="https://gengym.dk/" target="_blank" class="timeline__event-text">timelinesection.eventLinkOne</a>
+                        <a data-t="timelinesection.eventLinkOne" href="https://gengym.dk/" target="_blank" class="timeline__event-text">Highschool</a>
 
                     </div>
                     <div class="timeline__event" style="--event-number:2;">
@@ -132,7 +132,7 @@
                             <h3 class="timeline__event-header">KEA</h3>
                             <h4 class="timeline__event-sub-header">2016</h4>
                         </div>
-                        <a data-t href="https://kompetence.kea.dk/uddannelser/it/au-i-informationsteknologi" target="_blank" class="timeline__event-text">timelinesection.eventLinkTwo</a>
+                        <a data-t="timelinesection.eventLinkTwo" href="https://kompetence.kea.dk/uddannelser/it/au-i-informationsteknologi" target="_blank" class="timeline__event-text">Information Technology</a>
 
 
                     </div>
@@ -143,7 +143,7 @@
                             <h3 class="timeline__event-header">KVUC</h3>
                             <h4 class="timeline__event-sub-header">2018</h4>
                         </div>
-                        <a data-t href="https://kvuc.dk/english/" target="_blank" class="timeline__event-text">timelinesection.eventLinkThree</a>
+                        <a data-t="timelinesection.eventLinkThree" href="https://kvuc.dk/english/" target="_blank" class="timeline__event-text">Qualifications</a>
 
 
                     </div>
@@ -154,7 +154,7 @@
                             <h3 class="timeline__event-header">DTU</h3>
                             <h4 class="timeline__event-sub-header">2020</h4>
                         </div>
-                        <a data-t href="https://www.dtu.dk/english/education/bachelor-beng-and-bsc-/beng/software-technology" target="_blank" class="timeline__event-text">timelinesection.eventLinkFour</a>
+                        <a data-t="timelinesection.eventLinkFour" href="https://www.dtu.dk/english/education/bachelor-beng-and-bsc-/beng/software-technology" target="_blank" class="timeline__event-text">Software Technology - B.Eng</a>
 
 
                     </div>
@@ -165,7 +165,7 @@
                             <h3 class="timeline__event-header">DTU</h3>
                             <h4 class="timeline__event-sub-header">2022</h4>
                         </div>
-                        <a href="https://www.dtu.dk/english/education/bachelor-beng-and-bsc-/beng/software-technology" target="_blank" class="timeline__event-text">Computer science and engineering - M.Sc</a>
+                        <a data-t="timelinesection.eventLinkFive" href="https://www.dtu.dk/english/education/bachelor-beng-and-bsc-/beng/software-technology" target="_blank" class="timeline__event-text">Computer science and engineering - M.Sc</a>
 
 
                     </div>
