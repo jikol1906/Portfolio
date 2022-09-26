@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel www/index.html",
-    "build": "parcel build index.html",
+    "copyassets":"cp -r www/img www/js www/styles .",
+    "build": "static-i18n -l en -i en -i de -o . www && npm run copyassets && parcel build index.html",
     "build-local": "npm run build && serve dist/"
   },
   "keywords": [],
@@ -17,7 +18,8 @@
   "devDependencies": {
     "@parcel/transformer-image": "^2.0.0-rc.0",
     "@parcel/transformer-sass": "^2.0.0-rc.0",
-    "parcel": "^2.0.1"
+    "parcel": "^2.0.1",
+    "static-i18n": "^0.2.10"
   },
   "browserslist": "defaults"
 }
