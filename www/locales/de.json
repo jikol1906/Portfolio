@@ -1,0 +1,46 @@
+{
+    "header": {
+        "main" : "Boris Grunwald",
+        "secondary": "Software Entwickler"
+    },
+    "cta": {
+        "first":"Über Mich",
+        "second":"Meine Projekte"
+    },
+    "links": {
+        "de":"index.html",
+        "en":"../index.html"
+    },
+    "nav": {
+        "about":"Über Mich",
+        "timeline":"Zeitstrahl",
+        "skills":"Fähigkeiten",
+        "projects":"Projekten",
+        "contact":"Kontakt"
+    },
+    "paragraphs": {
+        "header":"Über Mich",
+        "first":"Softwareentwickler mit Spezialisierung auf Front-End-Webentwicklung. Meine Hauptkompetenzen sind HTML, CSS, Javascript sowie Technologien wie React und Angular.",
+        "second":"Ich verfüge über gute Kenntnisse von Low-Level-Javascript-Konzepten wie dem Prototype, Closures, der event loop und dem DOM. Das liegt daran, dass ich glaube, dass es auch wichtig ist, zu wissen, was in den Tiefen all der modernen Javascript-Frameworks vor sich geht",
+        "third":"Ich bin auch kompetent in CSS und kenne fortgeschrittene Konzepte wie das Box-Modell, die Spezifität von Selektoren und wie man moderne Layouts mit Grid und Flexbox erstellt.",
+        "download":"Lebenslauf Herunterladen"
+    },
+    "timelinesection":{
+        "header":"Zeitstrahl",
+        "eventLinkOne":"Gymnasium",
+        "eventLinkTwo":"Informationstechnologie",
+        "eventLinkThree":"Qualifikationen",
+        "eventLinkFour":"Software-Technologie - B.Eng",
+        "eventLinkFive":"Informatik - M.Sc"
+        
+    },
+    "competencessection":{
+        "header":"Fähigkeiten",
+        "subheaderOne":"Technologien",
+        "subheaderTwo":"Sprache"
+    }
+
+
+
+
+}

@@ -1,0 +1,155 @@
+*,
+*::after,
+*::before {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: var(--color-main);
+
+}
+
+body {
+    line-height: 1.6;
+    font-family: 'jura', sans-serif;
+
+    
+}
+
+main {
+    position: relative;
+    z-index: -2;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.mb1 { margin-bottom: var(--space-smallest);}
+.mb2 { margin-bottom: var(--space-smaller);}
+.mb3 { margin-bottom: var(--space-small);}
+.mb4 { margin-bottom: var(--space-medium);}
+.mb5 { margin-bottom: var(--space-big);}
+.mb6 { margin-bottom: var(--space-bigger);}
+.mb7 { margin-bottom: var(--space-biggest);}
+
+.mbe1 { margin-bottom: var(--space-smallest-em);}
+.mbe2 { margin-bottom: var(--space-smaller-em);}
+.mbe3 { margin-bottom: var(--space-small-em);}
+.mbe4 { margin-bottom: var(--space-medium-em);}
+.mbe5 { margin-bottom: var(--space-big-em);}
+.mbe6 { margin-bottom: var(--space-bigger-em);}
+.mbe7 { margin-bottom: var(--space-biggest-em);}
+
+
+.mt1 { margin-top: var(--space-smallest);}
+.mt2 { margin-top: var(--space-smaller);}
+.mt3 { margin-top: var(--space-small);}
+.mt4 { margin-top: var(--space-medium);}
+.mt5 { margin-top: var(--space-big);}
+.mt6 { margin-top: var(--space-bigger);}
+.mt7 { margin-top: var(--space-biggest);}
+
+.mte1 { margin-top: var(--space-smallest-em);}
+.mte2 { margin-top: var(--space-smaller-em);}
+.mte3 { margin-top: var(--space-small-em);}
+.mte4 { margin-top: var(--space-medium-em);}
+.mte5 { margin-top: var(--space-big-em);}
+.mte6 { margin-top: var(--space-bigger-em);}
+.mte7 { margin-top: var(--space-biggest-em);}
+
+.container {
+    margin: 0 auto;
+    max-width: 50rem;
+    padding: 0 2rem;
+    box-sizing: content-box;
+    
+    
+    @media only screen and (min-width: $md) {
+        max-width: 70rem;
+    }
+    
+    @media only screen and (min-width: $lg) {
+        max-width: 90rem;
+    }
+    
+    &-fluid {
+        max-width: 100%;
+    }
+}
+
+
+
+
+//------------------------------------------MIXINS------------------------------------------
+
+@mixin bp-xsm{
+    @media only screen and (min-width: $xsm) {
+        @content;
+    }
+}
+@mixin bp-sm{
+    @media only screen and (min-width: $sm) {
+        @content;
+    }
+}
+@mixin bp-med{
+    @media only screen and (min-width: $md) {
+        @content;
+    }
+}
+@mixin bp-lg{
+    @media only screen and (min-width: $lg) {
+        @content;
+    }
+}
+@mixin bp-xlg{
+    @media only screen and (min-width: $xlg) {
+        @content;
+    }
+}
+
+
+@mixin shadow {
+    box-shadow: 4px 7px 10px rgba(0,0,0,.11);   
+}
+@mixin border-radius($s:25px,$m:40px, $bottom-right-only: false) {
+
+    @if $bottom-right-only {
+        border-bottom-right-radius:$s;
+        @include bp-med {
+            border-bottom-right-radius:$m;
+        }
+    } @else {
+        border-top-right-radius: $s;
+        border-bottom-left-radius:$s;
+        @include bp-med {
+            border-top-right-radius: $m;
+            border-bottom-left-radius:$m;
+        }
+    }
+}
+
+@mixin focus-style {
+    box-shadow: 0 0 0 rgba(0,0,0,.11);  
+    transition: all .2s ease-in-out;
+    &:focus,&:hover {
+        @include shadow;
+        transform:scale(1.01);
+        filter:brightness(1.2);
+        @content
+    }
+
+    &:active {
+        box-shadow: 0 0 0 rgba(0,0,0,.11);
+        transform:scale(1);
+    }
+}

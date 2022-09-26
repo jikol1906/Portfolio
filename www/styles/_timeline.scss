@@ -1,0 +1,133 @@
+.timeline {
+    @include border-radius(100px,200px);
+
+    padding-bottom:var(--section-top-and-bottom-padding);;
+    padding-top:var(--section-top-and-bottom-padding);
+    position: relative;
+    overflow-x: hidden;
+    background-color: var(--color-secondary);
+
+    background-size: 125% 400px;
+
+    
+    background-repeat: no-repeat;
+    background-position: top left, bottom left;
+     
+    
+    background-image: 
+    url("../img/timeline/top-md.svg"),
+    url("../img/timeline/bottom-md.svg");
+
+    @media only screen and (min-width: $md) {
+        background-size: 100% 1400px;
+    }
+    @media only screen and (min-width: $lg) {
+        background-size: 100% 1300px;
+        background-image: 
+        url("../img/timeline/top-lg.svg"),
+        url("../img/timeline/bottom-lg.svg");
+        
+    }
+
+    
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: repeat(11, 1fr);
+        margin-bottom: -15rem;
+    }
+
+
+
+    &__line {
+        width: 100%;
+        height: auto;
+        grid-column: 1/-1;
+        grid-row: 1/-1;
+        stroke:var(--color-dark);
+        // opacity: .7;
+        fill:none;
+        
+        & circle {
+            fill:var(--color-dark);
+        }
+
+    }
+
+    &__event {
+        grid-column: 1/-1;
+        grid-row: calc(var(--event-number) * 2) / calc(var(--event-number) * 2 + 2);
+        color: var(--color-white);
+        display: grid;
+        gap: 2rem;
+        justify-items: center;
+        align-content: center;
+        text-align: center;
+
+        @media only screen and (min-width: $md) {
+            gap: 3.6rem;
+        }
+
+
+  
+
+        &-header {
+            font-size:clamp(4.4rem,10vw,7rem);
+            min-height: 0vw;
+            // font-size:4.4rem;
+            line-height: 1;
+            
+
+            @media only screen and (min-width: $md) {
+                font-size:7.2rem;
+            }
+        }
+
+
+        &-sub-header {
+            font-weight: 300;
+            line-height: 1;
+            font-size: 2.7rem;
+            opacity: 0.8;
+
+            @media only screen and (min-width: $md) {
+                font-size:3.8rem;
+            }
+        }
+
+        &-text {
+            font-size: .8rem;
+            display: inline-block;
+            padding: 0.5em 1.5em;
+            border-radius: 999px;
+            background-color: var(--color-dark-2);
+            font-weight: normal;
+            text-align: center;
+            outline: none;
+            &:focus,&:hover {
+                filter:brightness(1.09)
+            }
+
+            @media only screen and (min-width: $xsm) {
+                font-size: 1.2rem;
+                max-width: none;   
+            }
+            @media only screen and (min-width: $md) {
+                font-size:2rem;
+                max-width: none;   
+            }
+            @media only screen and (min-width: $lg) {
+                font-size:2rem;
+                max-width: none;   
+            }
+            
+        }
+
+        &-content {
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+

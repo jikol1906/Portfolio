@@ -1,0 +1,83 @@
+.projects {
+    @include border-radius(100px,200px);
+    padding-bottom:var(--section-top-and-bottom-padding);;
+    padding-top:var(--section-top-and-bottom-padding);
+    overflow-x: hidden;
+    background: var(--color-secondary);
+    &__grid {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 1fr;
+        
+        @media only screen and (min-width: $md) {
+            grid-template-columns: 1fr 1fr;
+        }
+        @media only screen and (min-width: $lg) {
+            gap: 3rem;
+        }
+    }
+
+    &__card {
+
+        @include shadow;
+        @include border-radius;
+        background-color: var(--color-dark);
+        background-image: url("../img/projects/card-bg.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 3rem;
+        
+        text-align: center;
+        color: var(--color-white);
+        display: grid;
+        grid-template-rows: auto 1fr;
+        justify-items: center;
+        grid-gap: 3.4rem;
+        gap: 3.4rem;
+
+        @media only screen and (min-width: $md) { 
+            padding: 4rem;
+        }
+
+
+
+        &-header {
+            font-size: 2.5rem;
+
+            @media only screen and (min-width: $lg) { 
+                white-space: nowrap;
+            }
+        }
+
+        &-text {
+            flex-basis: 100%;
+            font-size: 1.6rem;
+
+        }
+
+        &-technologies-header {
+            font-size: 1.2rem;
+        }
+
+        &-technology-logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            & > * + * {
+                margin-left: 10px;
+            }
+        }
+
+        &-technology-logo {
+            width: auto;
+            height: 3rem;
+        }
+
+        &-button-group {
+            & > * + * {
+                margin-top: 2rem;
+            }
+        }
+    }
+}
