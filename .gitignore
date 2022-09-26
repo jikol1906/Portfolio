@@ -4,3 +4,6 @@ node_modules
 /dist
 .DS_Store
 kata.ts
+img
+js
+styles
