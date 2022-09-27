@@ -2,6 +2,7 @@ import './navbaranimation';
 import './aboutmeanimation';
 import './timelineanimation';
 import './projectsanimation';
+import './formsubmit';
 
 import { gsap } from "gsap";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
