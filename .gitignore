@@ -5,7 +5,7 @@ node_modules
 .DS_Store
 kata.ts
 img
-js
+/js
 styles
 index.html
 da/index.html
