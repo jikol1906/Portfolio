@@ -41,6 +41,14 @@
     },
     "projectssection":{
         "header":"Projects",
-        "sortingvis":"Tool I made as a part of a school exercise to visualize sorting algorithms. Supports Insertion Sort, Selection Sort and Bubble Sort"
+        "visitwebsite":"Visite Website",
+        "visitgithub":"Visite Github",
+        "technologiesused":"Technologies Used",
+        "sortingvis":"Tool I made as a part of a school exercise to visualize sorting algorithms. Supports Insertion Sort, Selection Sort and Bubble Sort",
+        "fretworkout":"Tool I made to help myself learn all the notes on a guitar's fretboard",
+        "aleye":"Website I helped making for the startup company Al-eye. The company is developing visual aids using augmented reality",
+        "rockpaper":"Game I made as part of a Frontendmentors.io challenge",
+        "quiz":"Quiz I made for Universität Erfurt as a part of International Developmental Language Disorder Awareness Day",
+        "portolio":"The website you're on. Designed in Figma and made from the bottom up using GSAP for the animations."
     }
 }
