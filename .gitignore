@@ -4,9 +4,9 @@ node_modules
 /dist
 .DS_Store
 kata.ts
-img
+/img
 /js
-styles
+/styles
 index.html
 da/index.html
 de/index.html
