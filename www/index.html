@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-attr-t lang-t="html.lang">
 
 <head>
     <meta charset="UTF-8">
@@ -29,7 +29,7 @@
                         <img class="navbar__link-img" src="img/germany.svg" alt="Deutsch">
 
                     </a></li>
-                <li class="navbar__list-item-small"><a href="#">
+                <li class="navbar__list-item-small"><a data-attr-t href-t="links.da">
                         <img class="navbar__link-img" src="img/denmark.svg" alt="Dansk">
                     </a></li>
                 <li class="navbar__list-item-small"><a data-attr-t href-t="links.en" href="#">
@@ -957,14 +957,14 @@
     <div class="container">
 
         <footer id="contact" class="contact">
-            <h2 data-fade-in-bottom class="section-header">Contact</h2>
+            <h2 data-t="contact.header" data-fade-in-bottom class="section-header">Contact</h2>
             <form id="contactform" name="contact" class="contact__form" netlify>
-                <div data-fade-in-bottom><input class="contact__form-input" required type="text" name="name" id="name" placeholder="name"></div>
+                <div data-fade-in-bottom><input class="contact__form-input" required type="text" name="name" id="name" data-attr-t placeholder-t="contact.placeholdername"></div>
                 <div data-fade-in-bottom><input class="contact__form-input" required type="email" name="email" id="email" placeholder="email"></div>
-                <div data-fade-in-bottom><textarea class="contact__form-input" name="message" placeholder="message" id="message" cols="30"rows="10"></textarea></div>
+                <div data-fade-in-bottom><textarea class="contact__form-input" name="message" data-attr-t placeholder-t="contact.placeholdermessage" id="message" cols="30"rows="10"></textarea></div>
             </form>
 
-            <div data-fade-in-bottom style="text-align: center;"><input form="contactform" class="btn contact__submit" type="submit" value="send message"></div>
+            <div data-fade-in-bottom style="text-align: center;"><input form="contactform" class="btn contact__submit" type="submit" data-attr-t value-t="contact.sendbutton"></div>
         </footer>
     </div>
 </body>

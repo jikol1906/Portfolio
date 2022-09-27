@@ -1,0 +1,68 @@
+{
+    "html": {
+        "lang":"da"
+    },
+    "header": {
+        "main" : "Boris Grunwald",
+        "secondary": "Softwareudvikler"
+    },
+    "cta": {
+        "first":"Om mig",
+        "second":"Mine projekter"
+    },
+    "links": {
+        "de":"../de/index.html",
+        "da":"index.html",
+        "en":"../index.html"
+    },
+    "nav": {
+        "about":"Om mig",
+        "timeline":"Tidslinje",
+        "skills":"Kompetencer",
+        "projects":"Projekter",
+        "contact":"Kontakt"
+    },
+    "paragraphs": {
+        "header":"Om mig",
+        "first":"Softwareudvikler, der specialiserer i front-end webudvikling. Mine hovedkompetencer er HTML, CSS og Javascript samt teknologier som React og Angular",
+        "second":"Jeg har et godt kendskab til mere low-level Javascript koncepter som prototypen, closures og Javascripts \"event loop\". Dette er fordi, at jeg også mener, at det er vigtigt at have vide hvad der sker under overfladen på alle de mere moderne Javascript frameworks",
+        "third":"Jeg har også en dyb forståelse af CSS og kender til mere avancered koncepter som selector specificitet såvel som hvordan man bygger moderne layouts med flexbox og grid",
+        "download":"Download CV"
+    },
+    "timelinesection":{
+        "header":"Tidslinje",
+        "eventLinkOne":"Gymnasium",
+        "eventLinkTwo":"Informationsteknologi",
+        "eventLinkThree":"Kvalifikationer",
+        "eventLinkFour":"Softwareteknologi - B.Eng",
+        "eventLinkFive":"Informationsteknologi - M.Sc"
+        
+    },
+    "competencessection":{
+        "header":"Kompetencer",
+        "subheaderOne":"Teknologier",
+        "subheaderTwo":"Sprog"
+    },
+    "projectssection":{
+        "header":"Projekter",
+        "visitwebsite":"Besøg hjemmeside",
+        "visitgithub":"Besøg Github",
+        "technologiesused":"Brugte Teknologier",
+        "sortingvis":"Program jeg lavede som en del af en skoleopgave til at visualisere forskellige sorteringsalgoritmer",
+        "fretworkout":"Program jeg lavede til at hjælpe lære mig selv alle tonerne på en guitars gribebræt",
+        "aleye":"Hjemmeside som jeg lavede til startupvirksomheden Al-eye. Virksomheden udvikler visuelle hjælpemidler ved hjælp af augmented reality",
+        "rockpaper":"Spil som jeg lavede som en del af en udfordring fra Frontendmentors.io",
+        "quiz":"Quiz som jeg lavede til Universität Erfurt som en del af International Developmental Language Disorder Awareness Day",
+        "portolio":"Hjemmesiden som du befinder dig på nu. Designet i Figma og bygget op fra brunden med GSAP for animationerne"
+    },
+    "contact":{
+        "header":"Kontakt",
+        "placeholdername":"navn",
+        "placeholdermessage":"besked",
+        "sendbutton":"Send besked"
+    }
+
+
+
+
+}

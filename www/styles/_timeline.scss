@@ -34,7 +34,6 @@
         display: grid;
         grid-template-columns: repeat(12,1fr);
         grid-template-rows: repeat(11, 1fr);
-        margin-bottom: -15rem;
     }
 
 
@@ -109,7 +108,7 @@
             }
 
             @media only screen and (min-width: $xsm) {
-                font-size: 1.2rem;
+                font-size: 1.4rem;
                 max-width: none;   
             }
             @media only screen and (min-width: $md) {

@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel www/index.html",
     "copyassets":"cp -r www/img www/js www/styles .",
-    "build": "static-i18n -l en -i en -i de -o . www && npm run copyassets && parcel build index.html",
+    "build": "static-i18n -l en -i en -i de -i da -o . www && npm run copyassets && parcel build index.html",
     "build-local": "npm run build && serve dist/"
   },
   "keywords": [],

@@ -12,6 +12,7 @@
     },
     "links": {
         "de":"index.html",
+        "da":"../da/index.html",
         "en":"../index.html"
     },
     "nav": {
@@ -53,6 +54,12 @@
         "rockpaper":"Spiel das ich gemacht habe als Teil einer Herausfordering von Frontendmentors.io",
         "quiz":"Quiz das ich für die Universität Erfurt gemacht habe als Teil einer Kampagne Tag der SES",
         "portolio":"Die Website, auf der Sie sich gerade befinden. In Figma entworfen und von Grund auf mit GSAP für die Animationen gemacht"
+    },
+    "contact":{
+        "header":"Kontakt",
+        "placeholdername":"namen",
+        "placeholdermessage":"nachricht",
+        "sendbutton":"Nachricht senden"
     }
 
 

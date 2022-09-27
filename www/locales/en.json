@@ -12,6 +12,7 @@
     },
     "links": {
         "de":"de/index.html",
+        "da":"da/index.html",
         "en":"index.html"
     },
     "nav": {
@@ -53,5 +54,11 @@
         "rockpaper":"Game I made as part of a Frontendmentors.io challenge",
         "quiz":"Quiz I made for Universität Erfurt as a part of International Developmental Language Disorder Awareness Day",
         "portolio":"The website you're on. Designed in Figma and made from the bottom up using GSAP for the animations."
+    },
+    "contact":{
+        "header":"Contact",
+        "placeholdername":"name",
+        "placeholdermessage":"message",
+        "sendbutton":"Send Message"
     }
 }
