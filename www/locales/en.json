@@ -1,4 +1,7 @@
 {
+    "html": {
+        "lang":"en"
+    },
     "header": {
         "main" : "Boris Grunwald",
         "secondary": "Software Developer"
