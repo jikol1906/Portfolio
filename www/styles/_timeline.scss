@@ -71,8 +71,10 @@
   
 
         &-header {
-            font-size:clamp(4.4rem,10vw,7rem);
+            font-size:clamp(3.7rem,10vw,7rem);
+            margin-bottom: 1rem;
             min-height: 0vw;
+            font-weight: 100;
             // font-size:4.4rem;
             line-height: 1;
             
