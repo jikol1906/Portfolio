@@ -35,7 +35,8 @@
         "eventLinkTwo":"Information Technology",
         "eventLinkThree":"Qualifications",
         "eventLinkFour":"Software Technology - B.Eng",
-        "eventLinkFive":"Computer science and engineering - M.Sc"
+        "eventLinkFive":"Computer science and engineering - M.Sc",
+        "eventLinkFiveUrl":"https://www.dtu.dk/english/education/graduate/msc-programmes/computer-science-and-engineering"
         
     },
     "competencessection":{
