@@ -1,6 +1,7 @@
 .introduction {
     --margin-offset:10rem;
     position: relative;
+    background-color: var(--color-secondary);
     z-index: -1;
     padding-bottom:calc(var(--section-top-and-bottom-padding) + var(--margin-offset));
     padding-top:calc(var(--section-top-and-bottom-padding) + var(--margin-offset));
