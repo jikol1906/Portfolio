@@ -4,6 +4,29 @@
     padding-top:var(--section-top-and-bottom-padding);
     overflow-x: hidden;
     background: var(--color-main);
+
+    background-size: 125% 400px;
+
+    
+    background-repeat: no-repeat;
+    background-position: top left, bottom left;
+     
+    
+    background-image: 
+    url("../img/timeline/top-md.svg");
+    
+
+    @media only screen and (min-width: $md) {
+        background-size: 100% 1400px;
+    }
+    @media only screen and (min-width: $lg) {
+        background-size: 100% 1300px;
+        background-image: 
+        url("../img/timeline/top-lg.svg"),
+        
+        
+    }
+
     &__grid {
         display: grid;
         gap: 2rem;
