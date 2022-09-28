@@ -43,12 +43,12 @@
         height: auto;
         grid-column: 1/-1;
         grid-row: 1/-1;
-        stroke:var(--color-dark);
+        stroke:var(--color-white);
         // opacity: .7;
         fill:none;
         
         & circle {
-            fill:var(--color-dark);
+            fill:var(--color-white);
         }
 
     }
