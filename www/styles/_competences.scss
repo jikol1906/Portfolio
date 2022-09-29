@@ -80,6 +80,13 @@
         margin-bottom: 2.5rem;
     }
 
+    &__language-stat {
+        display: none;
+        @media only screen and (min-width: $md) {
+            display: block;
+        }
+    }
+
     &__svg {
         width: auto;
         height: 40px;
