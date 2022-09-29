@@ -11,9 +11,9 @@
         "second":"Mine projekter"
     },
     "links": {
-        "de":"../de/",
-        "da":"/",
-        "en":"../"
+        "de":"../de/index.html",
+        "da":"index.html",
+        "en":"../index.html"
     },
     "nav": {
         "about":"Om mig",

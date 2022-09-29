@@ -11,9 +11,9 @@
         "second":"See my projects"
     },
     "links": {
-        "de":"de/",
-        "da":"da/",
-        "en":"/"
+        "de":"de/index.html",
+        "da":"da/index.html",
+        "en":"index.html"
     },
     "nav": {
         "about":"About",
