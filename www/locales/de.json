@@ -11,9 +11,9 @@
         "second":"Meine Projekte"
     },
     "links": {
-        "de":"index.html",
-        "da":"../da/index.html",
-        "en":"../index.html"
+        "de":"/",
+        "da":"../da/",
+        "en":"../"
     },
     "nav": {
         "about":"Über Mich",
