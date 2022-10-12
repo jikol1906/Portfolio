@@ -49,6 +49,8 @@
         "visitwebsite":"Visite Website",
         "visitgithub":"Visite Github",
         "technologiesused":"Technologies Used",
+        "sentenceguesser":"Sentence Guesser works by taking an English sentence that you provide, translating it to German with DeepL, then returning it to you in the form of a fill-in-the-blanks exercise.",
+        "guitarnotefinder":"Another tool made for learning the fretboard of a guitar",
         "sortingvis":"Tool I made as a part of a school exercise to visualize sorting algorithms. Supports Insertion Sort, Selection Sort and Bubble Sort",
         "fretworkout":"Tool I made to help myself learn all the notes on a guitar's fretboard",
         "aleye":"Website I helped making for the startup company Al-eye. The company is developing visual aids using augmented reality",

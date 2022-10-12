@@ -49,6 +49,8 @@
         "visitwebsite":"Besøg hjemmeside",
         "visitgithub":"Besøg Github",
         "technologiesused":"Brugte Teknologier",
+        "sentenceguesser":"Sentence Guesser fungerer ved at tage en engelsk sætning, som du angiver, oversætte den til tysk med DeepL og derefter sende den tilbage til dig i form af en opgave, hvor du skal udfylde de tomme felter.",
+        "guitarnotefinder":"Et andet værktøj til at lærer tonerne på en guitars gribebræt",
         "sortingvis":"Program jeg lavede som en del af en skoleopgave til at visualisere forskellige sorteringsalgoritmer",
         "fretworkout":"Program jeg lavede til at hjælpe mig selv lære alle tonerne på en guitars gribebræt",
         "aleye":"Hjemmeside som jeg lavede til startupvirksomheden Al-eye. Virksomheden udvikler visuelle hjælpemidler ved hjælp af augmented reality",

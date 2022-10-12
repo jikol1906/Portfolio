@@ -48,6 +48,8 @@
         "header":"Projekten",
         "visitwebsite":"Website Besuchen",
         "visitgithub":"Github Besuchen",
+        "sentenceguesser":"Sentence Guesser nimmt einen von Ihnen eingegebenen englischen Satz, übersetzt ihn mit DeepL ins Deutsche und gibt ihn dann in Form einer Lückentextaufgabe an Sie zurück.",
+        "guitarnotefinder":"Ein weiteres Hilfsmittel zum Erlernen des Griffbrets einer Gitarre",
         "technologiesused":"Verwendete Technologien",
         "sortingvis":"Program dass ich Teil einer Schulaufgabe gemacht habe um verschiedene Sortieralgorithmen zu visualisieren",
         "fretworkout":"Program dass ich gemacht habe, um die Noten des Griffbretts einer Gitarre zu lernen",
