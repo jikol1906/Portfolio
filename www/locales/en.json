@@ -33,10 +33,12 @@
         "header":"Timeline",
         "eventLinkOne":"Highschool",
         "eventLinkTwo":"Information Technology",
-        "eventLinkThree":"Qualifications",
+        "eventLinkThree":"Internship",
         "eventLinkFour":"Software Technology - B.Eng",
-        "eventLinkFive":"Computer science and engineering - M.Sc",
-        "eventLinkFiveUrl":"https://www.dtu.dk/english/education/graduate/msc-programmes/computer-science-and-engineering"
+        "eventLinkFive":"Internship",
+        "eventLinkSix":"Exchange",
+        "eventLinkSeven":"Computer science and engineering - M.Sc",
+        "eventLinkSevenUrl":"https://www.dtu.dk/english/education/graduate/msc-programmes/computer-science-and-engineering"
         
     },
     "competencessection":{

@@ -32,11 +32,13 @@
     "timelinesection":{
         "header":"Tidslinje",
         "eventLinkOne":"Gymnasium",
-        "eventLinkTwo":"Informationsteknologi",
-        "eventLinkThree":"Kvalifikationer",
+        "eventLinkTwo":"Datamatiker",
+        "eventLinkThree":"Praktik",
         "eventLinkFour":"Softwareteknologi - B.Eng",
-        "eventLinkFive":"Informationsteknologi - M.Sc",
-        "eventLinkFiveUrl":"https://www.dtu.dk/uddannelse/kandidat/uddannelsesretninger/informationsteknologi"
+        "eventLinkFive":"Praktik",
+        "eventLinkSix":"Udlandsophold",
+        "eventLinkSeven":"Informationsteknologi - M.Sc",
+        "eventLinkSevenUrl":"https://www.dtu.dk/uddannelse/kandidat/uddannelsesretninger/informationsteknologi"
         
     },
     "competencessection":{

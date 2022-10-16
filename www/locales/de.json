@@ -31,12 +31,14 @@
     },
     "timelinesection":{
         "header":"Zeitstrahl",
-        "eventLinkOne":"Gymnasium",
-        "eventLinkTwo":"Informationstechnologie",
-        "eventLinkThree":"Qualifikationen",
+        "eventLinkOne":"Allgemeine Hochschulreife",
+        "eventLinkTwo":"Datentechniker",
+        "eventLinkThree":"Praktikum",
         "eventLinkFour":"Software-Technologie - B.Eng",
-        "eventLinkFive":"Informatik - M.Sc",
-        "eventLinkFiveUrl":"https://www.dtu.dk/english/education/graduate/msc-programmes/computer-science-and-engineering"
+        "eventLinkFive":"Praktikum",
+        "eventLinkSix":"Auslandsaufenthalt",
+        "eventLinkSeven":"Computer Science and Engineering - M.Sc",
+        "eventLinkSevenUrl":"https://www.dtu.dk/english/education/graduate/msc-programmes/computer-science-and-engineering"
         
     },
     "competencessection":{
