@@ -50,15 +50,15 @@
         "header":"Projekte",
         "visitwebsite":"Website Besuchen",
         "visitgithub":"Github Besuchen",
-        "sentenceguesser":"Sentence Guesser nimmt einen von Ihnen eingegebenen englischen Satz, übersetzt ihn mit DeepL ins Deutsche und gibt ihn dann in Form einer Lückentextaufgabe an Sie zurück.",
-        "guitarnotefinder":"Ein weiteres Hilfsmittel zum Erlernen des Griffbrets einer Gitarre",
+        "sentenceguesser":"Sentence Guesser übersetzt einen individuell eingegebenen englischen Satz mit DeepL ins Deutsche und stellt diesen im Anschluss als Lückentext-Aufgabe dar.",
+        "guitarnotefinder":"Guitar Note Finder unterstützt den auditiven Lernvorgang von Noten des Griffbretts einer Gitarre.",
         "technologiesused":"Verwendete Technologien",
-        "sortingvis":"Program dass ich Teil einer Schulaufgabe gemacht habe um verschiedene Sortieralgorithmen zu visualisieren",
-        "fretworkout":"Program dass ich gemacht habe, um die Noten des Griffbretts einer Gitarre zu lernen",
-        "aleye":"Webseite dass ich für das Startup-Unternehmen Al-eye gemacht habe. Das Unternehmen entwickelt visuelle Hilfsmittel mithilfe von augmented reality technologie",
-        "rockpaper":"Spiel das ich gemacht habe als Teil einer Herausfordering von Frontendmentors.io",
-        "quiz":"Quiz das ich für die Universität Erfurt gemacht habe als Teil einer Kampagne Tag der SES",
-        "portolio":"Die Website, auf der Sie sich gerade befinden. In Figma entworfen und von Grund auf mit GSAP für die Animationen gemacht"
+        "sortingvis":"Dieses Programm dient der Visualisierung verschiedener Sortierungsalgorithmen.",
+        "fretworkout":"Fretboard Workaut unterstützt den visuellen Lernvorgang von Noten des Griffbretts einer Gitarre.",
+        "aleye":"Erstellung einer Webseite für Al-eye. Das Start-up-Unternehmen entwickelt visuelle Hilfsmittel anhand augmented-reality-technology.",
+        "rockpaper":"Die Entwicklung dieses Spiels war Bestandteil einer Challenge von Frontendmentors.io.",
+        "quiz":"Entwicklung einer Website für die Universität Erfurt als Teil der Kampagne zum Internationalen Tag der Sprachentwicklungsstörungen (SES) 2020",
+        "portolio":"Die Website, auf der Sie sich gerade befinden, wurde in Figma entworfen und mit GSAP animiert."
     },
     "contact":{
         "header":"Kontakt",
