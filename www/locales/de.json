@@ -8,7 +8,7 @@
     },
     "cta": {
         "first":"Über mich",
-        "second":"Meine Projekte"
+        "second":"Projekte"
     },
     "links": {
         "de":"index.html",
@@ -16,7 +16,7 @@
         "en":"../index.html"
     },
     "nav": {
-        "about":"Über Mich",
+        "about":"Über mich",
         "timeline":"Zeitstrahl",
         "skills":"Fähigkeiten",
         "projects":"Projekten",
@@ -34,20 +34,20 @@
         "eventLinkOne":"Allgemeine Hochschulreife",
         "eventLinkTwo":"Datentechniker",
         "eventLinkThree":"Praktikum",
-        "eventLinkFour":"Software-Technologie - B.Eng",
+        "eventLinkFour":"B. Eng. Software-Technologie",
         "eventLinkFive":"Praktikum",
         "eventLinkSix":"Auslandsaufenthalt",
-        "eventLinkSeven":"Computer Science and Engineering - M.Sc",
+        "eventLinkSeven":"M. Sc. Informationstechnologie",
         "eventLinkSevenUrl":"https://www.dtu.dk/english/education/graduate/msc-programmes/computer-science-and-engineering"
         
     },
     "competencessection":{
-        "header":"Fähigkeiten",
+        "header":"Kenntnisse",
         "subheaderOne":"Technologien",
-        "subheaderTwo":"Sprache"
+        "subheaderTwo":"Sprachen"
     },
     "projectssection":{
-        "header":"Projekten",
+        "header":"Projekte",
         "visitwebsite":"Website Besuchen",
         "visitgithub":"Github Besuchen",
         "sentenceguesser":"Sentence Guesser nimmt einen von Ihnen eingegebenen englischen Satz, übersetzt ihn mit DeepL ins Deutsche und gibt ihn dann in Form einer Lückentextaufgabe an Sie zurück.",
@@ -62,7 +62,7 @@
     },
     "contact":{
         "header":"Kontakt",
-        "placeholdername":"namen",
+        "placeholdername":"Name",
         "placeholdermessage":"nachricht",
         "sendbutton":"Nachricht senden"
     }
