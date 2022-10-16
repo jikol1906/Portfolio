@@ -26,8 +26,8 @@
         "header":"About Me",
         "first":"Software developer specializing in front-end web development. My main competences are HTML, CSS, Javascript as well as technologies like React and Angular.",
         "second":"I have a good knowledge of more low-level javascript concepts like the prototype, closures, the event loop and the DOM. This is because I believe that it is also important to know what is going on \"under the hood\" of all the modern javascript frameworks",
-        "third":"I also am competent in css and know more advanced concepts like the box model, selector specificity as well as how to build modern layouts using grid and flexbox.",
-        "fourth":"",
+        "third":"",
+        "fourth":"I also am competent in css and know more advanced concepts like the box model, selector specificity as well as how to build modern layouts using grid and flexbox.",
         "download":"Download Resume"
     },
     "timelinesection":{
