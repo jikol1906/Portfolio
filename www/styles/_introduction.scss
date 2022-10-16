@@ -73,12 +73,11 @@
         width: 25rem;
         height: 25rem;
         object-fit: cover;
-        border: 15px solid rgba(255,255,255,.4);
+        border: 8px solid rgba(255,255,255,.4);
         object-position: center -21px;
         @media only screen and (min-width: $md) {
             width: 40rem;
             height: 40rem;
-            border: 37px solid rgba(255,255,255,.4);
         }
     }
 

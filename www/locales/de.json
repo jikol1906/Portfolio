@@ -27,7 +27,7 @@
         "first":"Als Front-End-Entwickler zählt Programmieren zu meinen größten Leidenschaften. Bereits während meines Studiums in Dänemark habe ich an zahlreichen Projekten mitgewirkt oder diese federführend umgesetzt. Sowohl die technische als auch die kreative Umsetzung der Projekte motiviert mich in meiner Arbeit. Auch in meiner Freizeit bilde ich mich auf diesem Gebiet stetig weiter, erstelle eigene Projekte oder nehme an digitalen Fortbildungskursen teil.",
         "second":"Meine Kenntnisse liegen hauptsächlich in HTML, CSS, Javascript/Typescript und unterschiedlichen Web-Frameworks, bei denen ich die größte Erfahrung mit React.js habe. Meines Erachtens ist es nicht nur relevant, sondern auch spannend, zu wissen, was in den Tiefen all der modernen Javascript-Frameworks vor sich geht.",
         "third":"Ich kenne mich außerdem mit fortgeschrittenen Konzepten wie dem Box-Modell oder der Spezifität von Selektoren sowie der Erstellung moderner Layouts mit Grid und Flexbox aus.",
-        "fourth":"Darüber hinaus erweitere ich meine Kenntnisse gerne, da es insbesondere im Bereich der Webentwicklung stetig Veränderungen und Neuerungen gibt. Die Einarbeitung in neue Technologien bereitet mir Freude und motiviert mich in meinem Tun. Herausforderungen betrachte ich als Grundlage wertvoller Erfahrungswerte für meine zukünftige Arbeit, der ich mit Effizienz und Innovation begegnen möchte.",
+        "fourth":"Insbesondere im Bereich der Webentwicklung gibt es stetig Veränderungen und Neuerungen. Die Einarbeitung in neue Technologien bereitet mir Freude und motiviert mich in meinem Tun. Herausforderungen betrachte ich als Grundlage wertvoller Erfahrungswerte für meine zukünftige Arbeit, der ich mit Effizienz und Innovation begegnen möchte.",
         "download":"Lebenslauf Herunterladen"
     },
     "timelinesection":{
@@ -58,7 +58,7 @@
         "fretworkout":"Fretboard Workaut unterstützt den visuellen Lernvorgang von Noten des Griffbretts einer Gitarre.",
         "aleye":"Erstellung einer Webseite für Al-eye. Das Start-up-Unternehmen entwickelt visuelle Hilfsmittel anhand augmented-reality-technology.",
         "rockpaper":"Die Entwicklung dieses Spiels war Bestandteil einer Challenge von Frontendmentors.io.",
-        "quiz":"Entwicklung einer Website für die Universität Erfurt als Teil der Kampagne zum Internationalen Tag der Sprachentwicklungsstörungen (SES) 2020",
+        "SES-quiz":"Entwicklung einer Website für die Universität Erfurt als Teil der Kampagne zum Internationalen Tag der Sprachentwicklungsstörungen (SES) 2020",
         "portolio":"Die Website, auf der Sie sich gerade befinden, wurde in Figma entworfen und mit GSAP animiert."
     },
     "contact":{
