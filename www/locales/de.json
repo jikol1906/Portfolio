@@ -24,9 +24,10 @@
     },
     "paragraphs": {
         "header":"Über Mich",
-        "first":"Softwareentwickler mit Spezialisierung auf Front-End-Webentwicklung. Meine Hauptkompetenzen sind HTML, CSS, Javascript sowie Technologien wie React und Angular.",
-        "second":"Ich verfüge über gute Kenntnisse von Low-Level-Javascript-Konzepten wie dem Prototype, Closures, der event loop und dem DOM. Das liegt daran, dass ich glaube, dass es auch wichtig ist, zu wissen, was in den Tiefen all der modernen Javascript-Frameworks vor sich geht",
-        "third":"Ich bin auch kompetent in CSS und kenne fortgeschrittene Konzepte wie das Box-Modell, die Spezifität von Selektoren und wie man moderne Layouts mit Grid und Flexbox erstellt.",
+        "first":"Als Front-End-Entwickler zählt Programmieren zu meinen größten Leidenschaften. Bereits während meines Studiums in Dänemark habe ich an zahlreichen Projekten mitgewirkt oder diese federführend umgesetzt. Sowohl die technische als auch die kreative Umsetzung der Projekte motiviert mich in meiner Arbeit. Auch in meiner Freizeit bilde ich mich auf diesem Gebiet stetig weiter, erstelle eigene Projekte oder nehme an digitalen Fortbildungskursen teil.",
+        "second":"Meine Kenntnisse liegen hauptsächlich in HTML, CSS, Javascript/Typescript und unterschiedlichen Web-Frameworks, bei denen ich die größte Erfahrung mit React.js habe. Meines Erachtens ist es nicht nur relevant, sondern auch spannend, zu wissen, was in den Tiefen all der modernen Javascript-Frameworks vor sich geht.",
+        "third":"Ich kenne mich außerdem mit fortgeschrittenen Konzepten wie dem Box-Modell oder der Spezifität von Selektoren sowie der Erstellung moderner Layouts mit Grid und Flexbox aus.",
+        "fourth":"Darüber hinaus erweitere ich meine Kenntnisse gerne, da es insbesondere im Bereich der Webentwicklung stetig Veränderungen und Neuerungen gibt. Die Einarbeitung in neue Technologien bereitet mir Freude und motiviert mich in meinem Tun. Herausforderungen betrachte ich als Grundlage wertvoller Erfahrungswerte für meine zukünftige Arbeit, der ich mit Effizienz und Innovation begegnen möchte.",
         "download":"Lebenslauf Herunterladen"
     },
     "timelinesection":{
