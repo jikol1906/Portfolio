@@ -22,19 +22,7 @@
         justify-items: center;
         grid-gap:7.5rem;
         gap:5rem;
-        --linebreak-fade-in:0;
-        &::after {
-            content: "";
-            grid-row:4/5;
-            display: block;
-            height: 3px;
-            width: 100%;
-            background-color: var(--color-white);
-            opacity: calc(var(--linebreak-fade-in) * 0.003);
-            transform: translateY(calc(100% - var(--linebreak-fade-in) * 1%));
-            border-radius: 5px;
 
-        }
 
         @media only screen and (min-width: $md) {
             grid-gap:8rem;
