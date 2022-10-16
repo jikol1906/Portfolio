@@ -127,17 +127,17 @@
                 filter:brightness(1.09)
             }
 
-            @media only screen and (min-width: $xsm) {
-                font-size: 1.4rem;
-                max-width: none;   
-            }
+            // @media only screen and (min-width: $xsm) {
+            //     font-size: 1.4rem;
+            //     max-width: none;   
+            // }
             @media only screen and (min-width: $md) {
-                font-size:2rem;
-                max-width: none;   
+                font-size:1.5rem;
+                
             }
             @media only screen and (min-width: $lg) {
                 font-size:2rem;
-                max-width: none;   
+                
             }
             
         }
