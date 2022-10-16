@@ -63,7 +63,7 @@
     "contact":{
         "header":"Kontakt",
         "placeholdername":"Name",
-        "placeholdermessage":"nachricht",
+        "placeholdermessage":"Nachricht",
         "sendbutton":"Nachricht senden"
     }
 
