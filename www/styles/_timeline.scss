@@ -99,11 +99,11 @@
         &-sub-header {
             font-weight: 300;
             line-height: 1;
-            font-size: .8rem;
+            font-size: 1rem;
             opacity: 0.8;
 
             @media only screen and (min-width: $xsm) {
-                font-size: 1rem;
+                font-size: 1.3rem;
             }
             @media only screen and (min-width: $sm) {
                 font-size: 1.5rem;
