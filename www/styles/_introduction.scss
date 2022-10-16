@@ -38,7 +38,7 @@
 
     &__paragraph {
         text-align: center;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         &-container {
             display: grid;
             grid-gap:1.9rem;
@@ -62,7 +62,7 @@
         color: var(--color-white);
 
         @media only screen and (min-width: $md) {
-            font-size: 2.1rem;
+            font-size: 1.8rem;
         }
 
     }
