@@ -24,10 +24,10 @@
     },
     "paragraphs": {
         "header":"Om mig",
-        "first":"Softwareudvikler, der specialiserer i front-end webudvikling. Mine hovedkompetencer er HTML, CSS og Javascript samt teknologier som React og Angular.",
-        "second":"Jeg har et godt kendskab til mere low-level Javascript koncepter som prototypen, closures og Javascripts \"event loop\". Dette er fordi, at jeg også mener, at det er vigtigt at have viden omkring hvad der sker under overfladen på alle de mere moderne Javascript frameworks.",
-        "third":"",
-        "fourth":"Jeg har også en dyb forståelse af CSS og kender til mere avancered koncepter som selector specificitet såvel som hvordan man bygger moderne layouts med flexbox og grid.",
+        "first":"Som frontend-udvikler er programmering en af mine store passioner. Under mine studier i Danmark var jeg allerede involveret i eller ansvarlig for flere projekter. Både den tekniske og den kreative gennemførelse af projekterne motiverer mig i mit arbejde. Også min fritid tilbringer jeg gerne med videre at lære om forskellige programmerinskoncepter samt at arbejde på egne personlige projekter.",
+        "second":"Min kompetencer er primært HTML, CSS, Javascript/Typescript og forskellige webframeworks, hvor jeg har størst erfaring med React.js.",
+        "third":"Jeg har også en dyb forståelse af CSS og kender til mere avancered koncepter som selector specificitet såvel som hvordan man bygger moderne layouts med flexbox og grid.",
+        "fourth":"Især inden for webudvikling sker der konstant ændringer og innovationer. Det giver mig glæde og motiverer mig i mit arbejde at gøre mig bekendt med nye teknologier. Jeg ser udfordringer som grundlaget for værdifuld erfaring til mit fremtidige arbejde, som jeg gerne vil møde med effektivitet og innovation.",
         "download":"Download CV"
     },
     "timelinesection":{

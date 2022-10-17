@@ -24,10 +24,10 @@
     },
     "paragraphs": {
         "header":"About Me",
-        "first":"Software developer specializing in front-end web development. My main competences are HTML, CSS, Javascript as well as technologies like React and Angular.",
-        "second":"I have a good knowledge of more low-level javascript concepts like the prototype, closures, the event loop and the DOM. This is because I believe that it is also important to know what is going on \"under the hood\" of all the modern javascript frameworks",
-        "third":"",
-        "fourth":"I also am competent in css and know more advanced concepts like the box model, selector specificity as well as how to build modern layouts using grid and flexbox.",
+        "first":"As a frontend developer, programming is one of my greatest passions. Already during my studies in Denmark I was involved in some projects or implemented them in a leading role. Both the technical and the creative implementation of the projects motivate me in my work. Also in my spare time I am constantly educating myself in this field, creating my own projects or taking part in digital training courses.",
+        "second":"My skills are mainly in HTML, CSS, Javascript/Typescript and different web frameworks where I have the most experience with React.js.",
+        "third":"I am also familiar with advanced CSS concepts such as the box model or selector specificity, as well as creating modern layouts with grid and flexbox.",
+        "fourth":"Especially in the field of web development there are constant changes and innovations. The familiarization with new technologies gives me joy and motivates me in my work. I consider challenges as the basis of valuable experience for my future work, which I would like to meet with efficiency and innovation.",
         "download":"Download Resume"
     },
     "timelinesection":{
