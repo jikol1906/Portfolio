@@ -22,7 +22,7 @@
 <circle cx="553.91" cy="70.8013" r="17.3315" fill="url(#paint6_linear_3350_4116)"/>
 <circle cx="609.473" cy="70.8013" r="17.3315" fill="url(#paint7_linear_3350_4116)"/>
 <circle cx="665.036" cy="70.8013" r="17.3315" fill="url(#paint8_linear_3350_4116)"/>
-<circle cx="720.598" cy="70.8013" r="17.3315" fill="url(#paint9_linear_3350_4116)"/>
+<circle opacity="0.13" cx="720.598" cy="70.8013" r="17.3315" fill="#D9D9D9"/>
 <defs>
 <linearGradient id="paint0_linear_3350_4116" x1="205.213" y1="71.8208" x2="237.086" y2="71.8208" gradientUnits="userSpaceOnUse">
 <stop stop-color="#1AD69E"/>
@@ -57,10 +57,6 @@
 <stop offset="1" stop-color="#6AF8CE"/>
 </linearGradient>
 <linearGradient id="paint8_linear_3350_4116" x1="649.716" y1="71.8208" x2="681.589" y2="71.8208" gradientUnits="userSpaceOnUse">
-<stop stop-color="#1AD69E"/>
-<stop offset="1" stop-color="#6AF8CE"/>
-</linearGradient>
-<linearGradient id="paint9_linear_3350_4116" x1="705.279" y1="71.8208" x2="737.152" y2="71.8208" gradientUnits="userSpaceOnUse">
 <stop stop-color="#1AD69E"/>
 <stop offset="1" stop-color="#6AF8CE"/>
 </linearGradient>
