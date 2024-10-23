@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel www/index.html",
-    "copyassets": "cp -r www/img www/js www/styles .",
-    "build": "static-i18n -l en -i en -i de -i da -o . www && npm run copyassets && parcel build index.html",
-    "build-local": "npm run build && serve dist/"
+    "start": "vite",
+    "build": "static-i18n -l en -i en -i de -i da -o temp www && cp -r www/img www/js www/styles temp && vite build",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
@@ -16,10 +14,9 @@
     "gsap": "^3.8.0"
   },
   "devDependencies": {
-    "@parcel/transformer-image": "^2.0.0-rc.0",
-    "@parcel/transformer-sass": "^2.0.0-rc.0",
-    "parcel": "^2.0.1",
-    "static-i18n": "^0.2.10"
+    "sass": "^1.80.3",
+    "static-i18n": "^0.2.10",
+    "vite": "^5.4.9"
   },
   "browserslist": "defaults"
 }

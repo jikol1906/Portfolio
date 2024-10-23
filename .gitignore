@@ -2,6 +2,7 @@ node_modules
 .vscode
 .parcel-cache
 /dist
+/temp
 .DS_Store
 kata.ts
 /img
