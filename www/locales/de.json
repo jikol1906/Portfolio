@@ -39,7 +39,9 @@
         "eventLinkFive":"Praktikum",
         "eventLinkSix":"Auslandsaufenthalt",
         "eventLinkSeven":"M. Sc. Informationstechnologie",
-        "eventLinkSevenUrl":"https://www.dtu.dk/english/education/graduate/msc-programmes/computer-science-and-engineering"
+        "eventLinkSevenUrl":"https://www.dtu.dk/english/education/graduate/msc-programmes/computer-science-and-engineering",
+        "eventLinkEight": "Arbeit",
+        "eventLinkEightUrl": "https://icomps.de/"
         
     },
     "competencessection":{
