@@ -46,7 +46,12 @@
     "competencessection": {
         "header": "Kompetencer",
         "subheaderOne": "Teknologier",
-        "subheaderTwo": "Sprog"
+        "subheaderTwo": "Sprog",
+        "languagestats": {
+            "danish": "Modersmål",
+            "english": "Flydende",
+            "german": "B2"
+        }
     },
     "projectssection": {
         "header": "Projekter",

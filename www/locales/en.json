@@ -47,7 +47,12 @@
     "competencessection":{
         "header":"Skills",
         "subheaderOne":"Technologies",
-        "subheaderTwo":"Languages"
+        "subheaderTwo":"Languages",
+        "languagestats": {
+            "danish": "First language",
+            "english": "Fluent",
+            "german": "B2"
+        }
     },
     "projectssection":{
         "header":"Projects",
