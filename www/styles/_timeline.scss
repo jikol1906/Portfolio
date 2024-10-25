@@ -41,6 +41,7 @@
     &__line {
         width: 100%;
         height: auto;
+        z-index: 1;
         grid-column: 1/-1;
         grid-row: 1/-1;
         stroke:var(--color-white);
@@ -54,6 +55,7 @@
     }
 
     &__event {
+        z-index: 2;
         grid-column: 1/-1;
         grid-row: calc(var(--event-number) * 2) / calc(var(--event-number) * 2 + 2);
         color: var(--color-white);
