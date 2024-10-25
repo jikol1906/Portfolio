@@ -23,6 +23,7 @@ const line = document.querySelector('.timeline__line') as HTMLDivElement;
             trigger: theLine,
             start: "top 70%",
             end: "bottom 70%",
+            toggleActions: "play none none none",
             scrub: .5,
         },
         ease: 'linear',
@@ -37,15 +38,17 @@ const line = document.querySelector('.timeline__line') as HTMLDivElement;
                 trigger: events[i],
                 start: "50% 70%",
                 end: "50% 70%",
-                scrub: .5,
+                toggleActions: "play none reverse none"
+                // scrub: .5,
             },
-            opacity:0,
-            scale: .4,
-            duration: .2,
+            scale: 0,
+            opacity: 0,
+            duration: .4,
             transformOrigin: 'center',
+            ease: "easeIn",
         })
     })
-    
+
 
 
 // lines.forEach((line, i : number) => {
@@ -94,10 +97,10 @@ const line = document.querySelector('.timeline__line') as HTMLDivElement;
 //             start: "20% 60%",
 //             toggleActions: "play none none reverse",
 //             // markers:true
-            
+
 
 //         },
-        
+
 //         x:i % 2 === 0 ? "10%" : "-10%",
 //         opacity: 0,
 //         duration:0.4
