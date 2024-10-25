@@ -27,16 +27,17 @@
         "first": "Ich bin ein leidenschaftlicher Front-End-Entwickler aus Dänemark, der derzeit in Deutschland lebt. Ich spezialisiere mich auf die Erstellung effizienter und ansprechender Benutzeroberflächen, die das gesamte Benutzererlebnis verbessern.",
         "skill": {
             "header": "Fähigkeiten und Expertise",
-            "first": "Front-End-Technologien: Erfahren in HTML5, CSS3 und JavaScript (ES6+), mit einem starken Verständnis von Kernkonzepten wie Prototypen, Closures, dem Event Loop und dem DOM.",
-            "second": "Frameworks und Bibliotheken: Kompetent in React, mit praktischer Erfahrung im Aufbau und der Wartung von React-Anwendungen. Zusätzlich erfahren mit anderen komponentenbasierten Frameworks wie Svelte, Astro und Gatsby.",
-            "third": "Design- und Figma-Expertise: Ich habe ein starkes Gespür für die Erstellung schöner Designs und umfangreiche Erfahrung mit Figma für Designprozesse.",
-            "fourth": "Testen und Qualitätssicherung: Entwicklung automatisierter End-to-End-Tests, um Softwarequalität, Zuverlässigkeit und reibungslose Funktionalität sicherzustellen.",
-            "fifth": "CSS-Beherrschung: Erfahren in Selektorspezifität, Erstellung moderner Layouts mit CSS Grid und Flexbox und Sicherstellung visueller Konsistenz über verschiedene Geräte und Bildschirmgrößen hinweg."
+            "first": "Erfahren in HTML5, CSS3 und JavaScript (ES6+), mit einem starken Verständnis von Kernkonzepten wie Prototypen, Closures, dem Event Loop und dem DOM.",
+            "second": "Kompetent in React, mit praktischer Erfahrung im Aufbau und der Wartung von React-Anwendungen. Zusätzlich erfahren mit anderen komponentenbasierten Frameworks wie Svelte, Astro und Gatsby.",
+            "third": "Ich habe ein starkes Gespür für die Erstellung schöner Designs und umfangreiche Erfahrung mit Figma für Designprozesse.",
+            "fourth": "Entwicklung automatisierter End-to-End-Tests, um Softwarequalität, Zuverlässigkeit und reibungslose Funktionalität sicherzustellen.",
+            "fifth": "Erfahren in Selektorspezifität, Erstellung moderner Layouts mit CSS Grid und Flexbox und Sicherstellung visueller Konsistenz über verschiedene Geräte und Bildschirmgrößen hinweg."
         },
         "professionalExperience": {
             "header": "Berufserfahrung",
-            "first": "Wartung einer React-Anwendung: Pflege einer dynamischen React-Anwendung für einen früheren Arbeitgeber, Verbesserung der Benutzerbindung und Sicherstellung konsistenter Leistung über alle Funktionen hinweg.",
-            "second": "Implementierung automatisierter Tests: Erstellung automatisierter Tests, die die Softwarezuverlässigkeit erhöhten, Ausfallzeiten durch Bugs reduzierten und die gesamte Entwicklungseffizienz verbesserten."
+            "icomps": "Frontend Entwickler: iComps GmbH",
+            "first": "Pflege einer dynamischen React-Anwendung für einen früheren Arbeitgeber, Verbesserung der Benutzerbindung und Sicherstellung konsistenter Leistung über alle Funktionen hinweg.",
+            "second": "Erstellung automatisierter Tests, die die Softwarezuverlässigkeit erhöhten, Ausfallzeiten durch Bugs reduzierten und die gesamte Entwicklungseffizienz verbesserten."
         },
         "download": "Lebenslauf herunterladen"
     },

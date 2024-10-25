@@ -35,7 +35,8 @@
         },
         "professionalExperience": {
             "header":"Professionel erfaring",
-            "first":"Vedligeholdte og udvidede en React-applikation for en tidligere arbejdsgiver",
+            "icomps": "Frontend Udvikler: iComps GmbH",
+            "first":"Vedligeholdte og udvidede kompleks react-kodebase.",
             "second": "Implementerede automatiserede tests, der forbedrede softwarens pålidelighed, reducerede nedetid på grund af fejl og forbedrede den samlede udviklingseffektivitet."
         },
         "download": "Download CV"

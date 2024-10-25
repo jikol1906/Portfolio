@@ -27,16 +27,17 @@
         "first": "I am a passionate front-end developer from Denmark, currently based in Germany. I specialize in crafting efficient and engaging user interfaces that enhance the overall user experience.",
         "skill": {
             "header":"Skills and Expertise",
-            "first": "Front-End Technologies: Proficient in HTML5, CSS3, and JavaScript (ES6+), with a strong understanding of core concepts such as prototypes, closures, the event loop, and the DOM.",
-            "second": "Frameworks and Libraries: Skilled in React, with hands-on experience building and maintaining React applications. Additionally, experienced with other component-based frameworks such as Svelte, Astro, and Gatsby.",
-            "third": "Design and Figma Expertise: I have a strong sense of creating beautiful designs and extensive experience using Figma for design processes.",
-            "fourth": "Testing and Quality Assurance: Developed automated end-to-end tests to ensure software quality, reliability, and smooth functionality.",
-            "fifth": "CSS Mastery: Experienced in selector specificity, creating modern layouts using CSS Grid and Flexbox, and ensuring visual consistency across different devices and screen sizes."
+            "first": "Proficient in HTML5, CSS3, and JavaScript (ES6+), with a strong understanding of core concepts such as prototypes, closures, the event loop, and the DOM.",
+            "second": "Skilled in React, with hands-on experience building and maintaining React applications. Additionally, experienced with other component-based frameworks such as Svelte, Astro, and Gatsby.",
+            "third": "I have a strong sense of creating beautiful designs and extensive experience using Figma for design processes.",
+            "fourth": "Developed automated end-to-end tests to ensure software quality, reliability, and smooth functionality.",
+            "fifth": "Experienced in selector specificity, creating modern layouts using CSS Grid and Flexbox, and ensuring visual consistency across different devices and screen sizes."
         },
         "professionalExperience": {
             "header":"Professional Experience",
-            "first":"React Application Maintenance: Maintained a dynamic React application for a previous employer, improving user engagement and ensuring consistent performance across features.",
-            "second": "Automated Testing Implementation: Created automated tests that enhanced software reliability, reduced downtime due to bugs, and improved overall development efficiency."
+            "icomps": "Frontend developer: iComps GmbH",
+            "first":"Maintained and extended a dynamic React application",
+            "second": "Created automated tests that enhanced software reliability, reduced downtime due to bugs, and improved overall development efficiency."
         },
         "download":"Download Resume"
     },

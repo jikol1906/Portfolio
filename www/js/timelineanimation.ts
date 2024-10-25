@@ -23,20 +23,20 @@ const line = document.querySelector('.timeline__line') as HTMLDivElement;
             trigger: theLine,
             start: "top 70%",
             end: "bottom 70%",
-            scrub: .1,
+            scrub: .5,
         },
         ease: 'linear',
         strokeDashoffset: "0",
         duration: .4
     })
 
-    circles.forEach((circle) => {
+    circles.forEach((circle, i) => {
 
         gsap.from(circle, {
             scrollTrigger: {
-                trigger: circle,
-                start: "-500% 50%",
-                end: "-400% 50%",
+                trigger: events[i],
+                start: "50% 70%",
+                end: "50% 70%",
                 scrub: .5,
             },
             opacity:0,
