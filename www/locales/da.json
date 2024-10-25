@@ -24,14 +24,14 @@
     },
     "paragraphs": {
         "header": "Om mig",
-        "first": "Jeg er en passioneret frontend-udvikler fra Danmark, som i øjeblikket bor i Tyskland. Jeg har specialiseret mig i at skabe effektive og engagerende brugergrænseflader, der forbedrer den samlede brugeroplevelse.",
+        "first": "Jeg er frontend-udvikler fra Danmark, som i øjeblikket bor i Tyskland. Jeg specialiserer mig i at skabe effektive brugergrænseflader, der forbedrer den samlede brugeroplevelse.",
         "skill": {
             "header":"Færdigheder",
             "first": "Behersker HTML5, CSS3 og JavaScript (ES6+) med en solid forståelse af kernekoncepter som prototyper, closures, event loop og DOM.",
             "second": "Kompetent inden for React med praktisk erfaring med at bygge og vedligeholde React-applikationer. Derudover erfaring med andre komponentbaserede frameworks som Svelte, Astro og Gatsby.",
             "third": "Jeg har en solid sans for at skabe æstetiske designs og stor erfaring med at bruge Figma til designprocesser.",
-            "fourth": "Udviklede automatiserede end-to-end-tests for at sikre softwarekvalitet og pålidelighed",
-            "fifth": "Erfaring med selector specificitet, oprettelse af moderne layouts ved hjælp af CSS Grid og Flexbox og med at sikre visuel konsistens på tværs af forskellige enheder og skærmstørrelser."
+            "fourth": "Jeg har også praktisk erfaring med at skrive automatiserede end-to-end-tests for at sikre softwarekvalitet og pålidelighed",
+            "fifth": "Erfaring med oprettelse af moderne layouts ved hjælp af CSS Grid og Flexbox og med at sikre visuel konsistens på tværs af forskellige enheder og skærmstørrelser."
         },
         "professionalExperience": {
             "header":"Professionel erfaring",
