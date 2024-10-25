@@ -5,6 +5,19 @@ a {
     color: currentColor;
 }
 
+.list {
+    display: grid;
+    gap: 2rem;
+
+    li {
+        padding-left: 2rem;
+    }
+
+    li::marker {
+        color: var(--color-white);
+    }
+}
+
 .header-container {
     display: grid;
     grid-auto-flow: column;

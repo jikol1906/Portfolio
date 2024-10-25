@@ -24,10 +24,20 @@
     },
     "paragraphs": {
         "header": "Om mig",
-        "first": "Som frontend-udvikler er programmering en af mine store passioner. Under mine studier i Danmark var jeg allerede involveret i eller ansvarlig for flere projekter. Både den tekniske og den kreative gennemførelse af projekterne motiverer mig i mit arbejde. Også min fritid tilbringer jeg gerne med videre at lære om forskellige programmerinskoncepter samt at arbejde på egne personlige projekter.",
-        "second": "Min kompetencer er primært HTML, CSS, Javascript/Typescript og forskellige webframeworks, hvor jeg har størst erfaring med React.js.",
-        "third": "Jeg har også en dyb forståelse af CSS og kender til mere avancered koncepter som selector specificitet såvel som hvordan man bygger moderne layouts med flexbox og grid.",
-        "fourth": "Især inden for webudvikling sker der konstant ændringer og innovationer. Det giver mig glæde og motiverer mig i mit arbejde at gøre mig bekendt med nye teknologier. Jeg ser udfordringer som grundlaget for værdifuld erfaring til mit fremtidige arbejde, som jeg gerne vil møde med effektivitet og innovation.",
+        "first": "Jeg er en passioneret frontend-udvikler fra Danmark, som i øjeblikket bor i Tyskland. Jeg har specialiseret mig i at skabe effektive og engagerende brugergrænseflader, der forbedrer den samlede brugeroplevelse.",
+        "skill": {
+            "header":"Færdigheder",
+            "first": "Behersker HTML5, CSS3 og JavaScript (ES6+) med en solid forståelse af kernekoncepter som prototyper, closures, event loop og DOM.",
+            "second": "Kompetent inden for React med praktisk erfaring med at bygge og vedligeholde React-applikationer. Derudover erfaring med andre komponentbaserede frameworks som Svelte, Astro og Gatsby.",
+            "third": "Jeg har en solid sans for at skabe æstetiske designs og stor erfaring med at bruge Figma til designprocesser.",
+            "fourth": "Udviklede automatiserede end-to-end-tests for at sikre softwarekvalitet og pålidelighed",
+            "fifth": "Erfaring med selector specificitet, oprettelse af moderne layouts ved hjælp af CSS Grid og Flexbox og med at sikre visuel konsistens på tværs af forskellige enheder og skærmstørrelser."
+        },
+        "professionalExperience": {
+            "header":"Professionel erfaring",
+            "first":"Vedligeholdte og udvidede en React-applikation for en tidligere arbejdsgiver",
+            "second": "Implementerede automatiserede tests, der forbedrede softwarens pålidelighed, reducerede nedetid på grund af fejl og forbedrede den samlede udviklingseffektivitet."
+        },
         "download": "Download CV"
     },
     "timelinesection": {

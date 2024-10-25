@@ -24,10 +24,20 @@
     },
     "paragraphs": {
         "header":"About Me",
-        "first":"As a frontend developer, programming is one of my greatest passions. Already during my studies in Denmark I was involved in some projects or implemented them in a leading role. Both the technical and the creative implementation of the projects motivate me in my work. Also in my spare time I am constantly educating myself in this field, creating my own projects or taking part in digital training courses.",
-        "second":"My skills are mainly in HTML, CSS, Javascript/Typescript and different web frameworks where I have the most experience with React.js.",
-        "third":"I am also familiar with advanced CSS concepts such as the box model or selector specificity, as well as creating modern layouts with grid and flexbox.",
-        "fourth":"Especially in the field of web development there are constant changes and innovations. The familiarization with new technologies gives me joy and motivates me in my work. I consider challenges as the basis of valuable experience for my future work, which I would like to meet with efficiency and innovation.",
+        "first": "I am a passionate front-end developer from Denmark, currently based in Germany. I specialize in crafting efficient and engaging user interfaces that enhance the overall user experience.",
+        "skill": {
+            "header":"Skills and Expertise",
+            "first": "Front-End Technologies: Proficient in HTML5, CSS3, and JavaScript (ES6+), with a strong understanding of core concepts such as prototypes, closures, the event loop, and the DOM.",
+            "second": "Frameworks and Libraries: Skilled in React, with hands-on experience building and maintaining React applications. Additionally, experienced with other component-based frameworks such as Svelte, Astro, and Gatsby.",
+            "third": "Design and Figma Expertise: I have a strong sense of creating beautiful designs and extensive experience using Figma for design processes.",
+            "fourth": "Testing and Quality Assurance: Developed automated end-to-end tests to ensure software quality, reliability, and smooth functionality.",
+            "fifth": "CSS Mastery: Experienced in selector specificity, creating modern layouts using CSS Grid and Flexbox, and ensuring visual consistency across different devices and screen sizes."
+        },
+        "professionalExperience": {
+            "header":"Professional Experience",
+            "first":"React Application Maintenance: Maintained a dynamic React application for a previous employer, improving user engagement and ensuring consistent performance across features.",
+            "second": "Automated Testing Implementation: Created automated tests that enhanced software reliability, reduced downtime due to bugs, and improved overall development efficiency."
+        },
         "download":"Download Resume"
     },
     "timelinesection":{

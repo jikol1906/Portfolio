@@ -37,26 +37,23 @@
     }
 
     &__paragraph {
-        text-align: center;
         font-size: 1.4rem;
         &-container {
             display: grid;
             grid-gap:1.9rem;
-            gap:1.9rem;
+            gap:1.1rem;
 
 
-            @media only screen and (min-width: $xsm) {
-                grid-gap:2.5rem;
-                gap:2.5rem;
-            }
-            @media only screen and (min-width: $md) {
-                grid-gap:4.5rem;
-                gap:4.5rem;
-            }
-            @media only screen and (min-width: $lg) {
-                grid-gap:5rem;
-                gap:5rem;
-            }
+            // @media only screen and (min-width: $xsm) {
+            //     grid-gap:2.5rem;
+            //     gap:2.5rem;
+            // }
+            // @media only screen and (min-width: $md) {
+            //     grid-gap:3.5rem;
+            // }
+            // @media only screen and (min-width: $lg) {
+            //     grid-gap:5rem;
+            // }
         }
         
         color: var(--color-white);

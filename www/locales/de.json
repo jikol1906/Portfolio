@@ -23,12 +23,22 @@
         "contact":"Kontakt"
     },
     "paragraphs": {
-        "header":"Über Mich",
-        "first":"Als Frontend Entwickler zählt Programmieren zu meinen größten Leidenschaften. Bereits während meines Studiums in Dänemark habe ich an einigen Projekten mitgewirkt oder diese federführend umgesetzt. Sowohl die technische als auch die kreative Umsetzung der Projekte motiviert mich in meiner Arbeit. Auch in meiner Freizeit bilde ich mich auf diesem Gebiet stetig weiter, erstelle eigene Projekte oder nehme an digitalen Fortbildungskursen teil.",
-        "second":"Meine Kenntnisse liegen hauptsächlich in HTML, CSS, Javascript/Typescript und unterschiedlichen Web-Frameworks, bei denen ich die größte Erfahrung mit React.js habe.",
-        "third":"Ich kenne mich außerdem mit fortgeschrittenen CSS Konzepten wie dem Box-Modell oder der Spezifität von Selektoren sowie der Erstellung moderner Layouts mit Grid und Flexbox aus.",
-        "fourth":"Insbesondere im Bereich der Webentwicklung gibt es stetig Veränderungen und Neuerungen. Die Einarbeitung in neue Technologien bereitet mir Freude und motiviert mich in meinem Tun. Herausforderungen betrachte ich als Grundlage wertvoller Erfahrungswerte für meine zukünftige Arbeit, der ich mit Effizienz und Innovation begegnen möchte.",
-        "download":"Lebenslauf Herunterladen"
+        "header": "Über mich",
+        "first": "Ich bin ein leidenschaftlicher Front-End-Entwickler aus Dänemark, der derzeit in Deutschland lebt. Ich spezialisiere mich auf die Erstellung effizienter und ansprechender Benutzeroberflächen, die das gesamte Benutzererlebnis verbessern.",
+        "skill": {
+            "header": "Fähigkeiten und Expertise",
+            "first": "Front-End-Technologien: Erfahren in HTML5, CSS3 und JavaScript (ES6+), mit einem starken Verständnis von Kernkonzepten wie Prototypen, Closures, dem Event Loop und dem DOM.",
+            "second": "Frameworks und Bibliotheken: Kompetent in React, mit praktischer Erfahrung im Aufbau und der Wartung von React-Anwendungen. Zusätzlich erfahren mit anderen komponentenbasierten Frameworks wie Svelte, Astro und Gatsby.",
+            "third": "Design- und Figma-Expertise: Ich habe ein starkes Gespür für die Erstellung schöner Designs und umfangreiche Erfahrung mit Figma für Designprozesse.",
+            "fourth": "Testen und Qualitätssicherung: Entwicklung automatisierter End-to-End-Tests, um Softwarequalität, Zuverlässigkeit und reibungslose Funktionalität sicherzustellen.",
+            "fifth": "CSS-Beherrschung: Erfahren in Selektorspezifität, Erstellung moderner Layouts mit CSS Grid und Flexbox und Sicherstellung visueller Konsistenz über verschiedene Geräte und Bildschirmgrößen hinweg."
+        },
+        "professionalExperience": {
+            "header": "Berufserfahrung",
+            "first": "Wartung einer React-Anwendung: Pflege einer dynamischen React-Anwendung für einen früheren Arbeitgeber, Verbesserung der Benutzerbindung und Sicherstellung konsistenter Leistung über alle Funktionen hinweg.",
+            "second": "Implementierung automatisierter Tests: Erstellung automatisierter Tests, die die Softwarezuverlässigkeit erhöhten, Ausfallzeiten durch Bugs reduzierten und die gesamte Entwicklungseffizienz verbesserten."
+        },
+        "download": "Lebenslauf herunterladen"
     },
     "timelinesection":{
         "header":"Zeitstrahl",
