@@ -7,7 +7,14 @@
     padding-top:calc(var(--section-top-and-bottom-padding) + var(--margin-offset));
 
     
-    
+    &__section-container {
+        display: grid;
+        gap: 2rem;
+
+        @media only screen and (min-width: $md) {
+            gap: 5rem;
+        }
+    }
 
     
     
@@ -41,7 +48,7 @@
         &-container {
             display: grid;
             grid-gap:1.9rem;
-            gap:1.1rem;
+            gap:2.1rem;
 
 
             // @media only screen and (min-width: $xsm) {
