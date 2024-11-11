@@ -30,14 +30,14 @@
             "first": "Erfahrung mit HTML5, CSS3 und JavaScript (ES6+), gutes Verständnis von Kernkonzepten wie Prototypen, Closures, dem Event Loop und dem DOM",
             "second": "Kompetenz in React, mit praktischer Erfahrung in Aufbau und Wartung von React-Anwendungen sowie anderen komponentenbasierten Frameworks wie Svelte, Astro und Gatsby",
             "third": "Sehr gutes Designempfinden und umfangreiche Erfahrung mit Figma zur Umsetzung von  Designprozessen",
-            "fourth": "Erfahrung mit der Entwicklung automatisierter End-to-End-Tests, um Softwarequalität, Zuverlässigkeit und Funktionalität sicherzustellen.",
+            "fourth": "Erfahrung mit der Entwicklung automatisierter End-to-End-Tests, um Softwarequalität, Zuverlässigkeit und Funktionalität sicherzustellen",
             "fifth": "Expertise in Selektorspezifität, der Erstellung moderner Layouts mit CSS Grid und Flexbox sowie Sicherstellung visueller Konsistenz über verschiedene Endgeräte und Bildschirmgrößen hinweg"
         },
         "professionalExperience": {
             "header": "Berufserfahrung",
-            "icomps": "Frontend Entwickler: iComps GmbH",
-            "first": "Pflege einer dynamischen React-Anwendung, Verbesserung der Benutzerbindung und Sicherstellung konsistenter Leistung über alle Funktionen hinweg.",
-            "second": "Erstellung automatisierter Tests, die die Softwarezuverlässigkeit erhöhten, Ausfallzeiten durch Bugs reduzierten und die gesamte Entwicklungseffizienz verbesserten."
+            "icomps": "iComps GmbH",
+            "first": "Pflege einer dynamischen React-Anwendung, Verbesserung der Benutzerbindung und Sicherstellung konsistenter Leistung über alle Funktionen hinweg",
+            "second": "Erstellung automatisierter Tests, die die Softwarezuverlässigkeit erhöhen, Ausfallzeiten durch Bugs reduzieren und die gesamte Entwicklungseffizienz verbessern"
         },
         "download": "Lebenslauf herunterladen"
     },
